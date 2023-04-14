@@ -1,0 +1,164 @@
+*, *:focus {outline: none;}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {border: 0; font-family: inherit; font-size: 100%; font-style: inherit; font-weight: inherit; margin: 0; outline: 0; padding: 0; vertical-align: baseline;}
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {display: block;}
+audio, canvas, video {display: inline-block; max-width: 100%;}
+html {overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; box-sizing: border-box; scroll-behavior: smooth;}
+a {color: var(--anchor); text-decoration: none; transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; }
+a:focus {outline: none;}
+a:hover, a:active {outline: 0;}
+a:hover{color: var(--heading);}
+
+h1, h2, h3, h4, h5, h6 {clear: both; margin: 0 0 8px; color: var(--heading); letter-spacing: -0.3px; font-weight: 700; font-family: 'Montserrat', sans-serif;}
+h1 {font-size: 3.875rem; line-height: normal; letter-spacing: -1.5px; margin-bottom: 14px;}
+h2 {font-size: 2.688rem; line-height: normal; letter-spacing: -0.72px; margin-bottom: 35px;}
+h3 {font-size: 1.813rem; line-height: normal; letter-spacing: -0.48px; margin-bottom: 10px;}
+h4 {font-size: 1.375rem; line-height: normal; letter-spacing: -0.37px; margin-bottom: 19px;}
+h5 {font-size: 1.25rem; line-height: 30px; letter-spacing: -0.33px; margin-bottom: 14px;}
+h6 {font-size: 1rem; line-height: 1.67;}
+
+address { margin-bottom: 9px;}
+abbr[title] {border-bottom: 1px dotted #2b2b2b; cursor: help;}
+b, strong {font-weight: 700;}
+cite, dfn, em, i {font-style: italic;}
+mark, ins {background: #fff9c0; text-decoration: none;}
+p {margin-bottom: 16px;}
+p:last-child{margin-bottom: 0;}
+code, kbd, tt, var, samp, pre {font-size: 15px; -webkit-hyphens: none; -moz-hyphens: none; -ms-hyphens: none; hyphens: none; line-height: 1.6;}
+pre {border: 1px solid rgba(0, 0, 0, 0.1); -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; margin-bottom: 24px; max-width: 100%; overflow: auto; padding: 12px; white-space: pre; white-space: pre-wrap; word-wrap: break-word;}
+
+blockquote, q {-webkit-hyphens: none; -moz-hyphens: none; -ms-hyphens: none; hyphens: none; quotes: none;}
+blockquote {color: #747474; font-weight: normal; font-size: 20px; line-height: 30px; font-style: italic; padding: 0; position: relative; letter-spacing: 0; border-radius: 0; background: transparent; margin: 48px 0 46px;}
+blockquote p::before, blockquote p::after{font-size: 14px; line-height: normal; top: -8px; font-family: "Font Awesome 6 Pro"; font-weight: 900; position: relative;}
+blockquote p::before{content: "\f10d";}
+blockquote p::after{content: "\f10e";}
+blockquote cite, blockquote small {color: rgba(31, 56, 74, 0.6); font-size: 1rem;}
+blockquote em, blockquote i, blockquote cite {font-style: normal;}
+
+small {font-size: 1.375rem; letter-spacing: -0.37px; color: var(--small); font-weight: 700; margin: 0 0 12px 0; display: block;}
+big {font-size: 125%;}
+sup, sub {font-size: 10px; letter-spacing: -0.18px; height: 0; line-height: 0; position: relative; vertical-align: baseline;}
+sup {bottom: 1ex;}
+sub {top: 0;}
+dl {margin-bottom: 24px;}
+dd {margin-bottom: 24px;}
+
+ul {list-style: none; margin: 29px 0 30px 53px;}
+ul > li {counter-increment: li; position: relative; margin-bottom: 5px;}
+ul > li:before {content: ""; position: absolute; top: 10px; left: -20px; width: 5px; height: 5px; border-radius: 300px; background-color: var(--anchor);}
+li > ul {margin: 25px 0 26px 25px;}
+
+ol {counter-reset: section; list-style: none; margin: 29px 0 24px 58px;}
+ol > li {counter-increment: li; position: relative; margin-bottom: 5px;}
+ol > li:before{counter-increment: section; content: counter(section, decimal) ""; top: 3px; left: -32px; background-color: var(--light-gray); color: var(--heading); position: absolute; font-size: 11px; line-height: normal; font-weight: 600;font-family: 'Montserrat', sans-serif; width: 20px;height: 20px;border-radius: 50%;align-items: center;display: flex;justify-content: center;}
+li > ol {margin: 25px 0 26px 25px;}
+
+img {-ms-interpolation-mode: bicubic; border: 0; vertical-align: middle; max-width: 100%; height: auto;}
+figure {margin: 0;}
+fieldset {border: 1px solid rgba(0, 0, 0, 0.1); margin: 0 0 24px; padding: 11px 12px 0;}
+legend {white-space: normal;}
+
+button, input, select, textarea {-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; font-size: 100%; margin: 0; max-width: 100%; vertical-align: baseline;}
+button, input {line-height: normal;}
+input, textarea {background-image: -webkit-linear-gradient(hsla(0, 0%, 100%, 0), hsla(0, 0%, 100%, 0));}
+button, html input[type="button"], input[type="reset"], input[type="submit"] {-webkit-appearance: button; cursor: pointer;}
+button[disabled], input[disabled] {cursor: default;}
+
+input[type="checkbox"], input[type="radio"] {padding: 0;}
+input[type="search"] {-webkit-appearance: textfield; border-radius: 0; border-bottom: solid 1px #87a3b8; background: var(--clc-input); text-transform: capitalize; letter-spacing: normal; font-size: 1rem; font-weight: 800; padding:11px 40px 13px 17px; font-family: "sweet-sans-pro", sans-serif;}
+input[type="search"]::-webkit-search-decoration, input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-results-button, input[type="search"]::-webkit-search-results-decoration {display: none;}
+input[type="search"]::-webkit-search-decoration {-webkit-appearance: none;}
+button::-moz-focus-inner, input::-moz-focus-inner {border: 0; padding: 0;}
+textarea {overflow: auto; vertical-align: top; min-height: 128px;}
+
+table, th, td {border: 1px solid rgba(0, 0, 0, 0.1);}
+table {border-collapse: separate; border-spacing: 0; border-width: 0; margin: 0; max-width: 100%; width: 100%;}
+table tr td:first-child {padding-left: 15px; text-align: left; font-weight: 600;}
+table tr th:first-child {text-align: left; padding-left: 21px;}
+table tbody img {margin: 0 auto;}
+th {border-width: 0; font-size: 11px; font-weight: bold; line-height: normal; letter-spacing: 0.4px; padding: 14px 0 17px; background-color: var(--heading); color: var(--white); text-transform: uppercase;}
+th span.icon{font-size: 14px; margin-left: 4px; top: 0px; position: relative; }
+td {border-width: 0; padding: 13px 0 11px; text-align: center; border-bottom: solid 1px rgb(255 255 255 / 10%); vertical-align: middle;}
+table tr:nth-child(even) td{background-color: var(--light-gray);}
+
+caption, th, td {text-align: left;}
+del {color: #231f20;}
+hr{display: block; background-color:rgba(136, 157, 180, 0.2); border: 0; width:100%; height: 3px; margin:31px 0;}
+
+/* Support a widely-adopted but non-standard selector for text selection styles * to achieve a better experience. See http://core.trac.wordpress.org/ticket/25898. */ 
+::selection {background-color: #231f20; color: #ffffff;}
+::-moz-selection {background-color: #231f20; color: #ffffff;}
+
+/* Input fields */
+input[type="search"], input, select, textarea {outline: 0; width: 100%; font-size:1rem; line-height: 24px; letter-spacing: -0.65px; background: var(--white); box-shadow: none; padding:13px 23px 13px; vertical-align: middle; font-family: 'Montserrat', sans-serif; font-weight: normal; height: auto; transition: all 0.5s ease-in-out;-webkit-transition: all 0.5s ease-in-out;-moz-transition: all 0.5s ease-in-out; border: solid 2px var(--input-border); border-radius: 26px;}
+textarea {width: 100%; resize: none; height: 118px;}
+input:focus, textarea:focus{outline: 0;}
+input[type="button"], input[type="reset"], input[type="submit"] {display: inline-block; font-size: 14px; line-height: normal; padding: 17px 35px 16px 36px; vertical-align: middle; cursor: pointer; border: none; border-radius: 0; background-color: var(--anchor); font-weight: bold; letter-spacing: normal; position: relative; transition: all 0.5s linear; -webkit-transition: all 0.5s linear; -moz-transition: all 0.5s linear; text-transform: uppercase; text-align: center; color: #FFFFFF; font-family: 'Montserrat', sans-serif; }
+input[type="button"]:hover, input[type="button"]:focus, input[type="reset"]:hover, input[type="reset"]:focus, input[type="submit"]:hover, input[type="submit"]:focus {background-color: var(--black); color: var(--white);}
+input[type="button"]:active, input[type="reset"]:active, input[type="submit"]:active {outline: none;}
+.search-field {width: 100%;}
+.search-submit {display: none;}
+
+
+/* Buttons */
+button, .button{ display: inline-block; font-size:1.063rem; font-weight: 700; line-height: normal; letter-spacing: -0.21px; padding: 16px 68px 17px 37px; vertical-align: middle; cursor: pointer; border: none; border-radius: 34px; background-color: var(--anchor); position: relative; transition: all 0.3s ease-in-out; -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; text-align: center; color: var(--white); font-family: 'Montserrat', sans-serif;}
+button:hover, button:focus, .button:hover, .button:focus {background-color: var(--anchor-hover); color: var(--white); border-radius: 30px;}
+button::after, .button::after{right: 31px; content: "\f061"; font-size:1rem; font-family: "Font Awesome 6 Sharp"; font-weight: 400; transition: all 0.3s ease-in-out; position: absolute; display: flex; align-items: center; flex-wrap: wrap; top: 0; bottom: 0;}
+button:hover:after, .button:hover:after {right: 25px;}
+
+.outline-btn {background: transparent; border: 3px solid var(--white); color: var(--white); padding:14px 60px 14px 34px;}
+.outline-btn:hover {background:var(--white); color: var(--anchor);}
+
+
+/* Placeholder text color -- selectors need to be separate to work. */ 
+::-webkit-input-placeholder {color:var(--light-blue); font-family: 'Montserrat', sans-serif; opacity: 1; font-size: 1rem; font-weight: 400; letter-spacing: -0.47px;}
+:-moz-placeholder {color:var(--light-blue); font-family: 'Montserrat', sans-serif; opacity: 1; font-size: 1rem; font-weight: 400;  letter-spacing: -0.47px;}
+::-moz-placeholder {color:var(--light-blue); font-family: 'Montserrat', sans-serif; opacity: 1; font-size: 1rem; font-weight: 400;  letter-spacing: -0.47px;}
+:-ms-input-placeholder {color:var(--light-blue); font-family: 'Montserrat', sans-serif; opacity: 1; font-size: 1rem; font-weight: 400; letter-spacing: -0.47px;}
+
+/* Responsive images. Fluid images for posts, comments, and widgets */
+embed, iframe, object, video {margin-bottom: 7px; max-width: 100%; border-radius: 0;}
+p > embed, p > iframe, p > object, span > embed, span > iframe, span > object {margin-bottom: 0;}
+
+
+/* Alignment */
+.alignleft {float: left;}
+.alignright {float: right;}
+.aligncenter {display: block; margin-left: auto; margin-right: auto; text-align: center;}
+blockquote.alignleft, figure.wp-caption.alignleft, img.alignleft {margin:7px 50px 24px 0;}
+.wp-caption.alignleft {margin: 7px 32px 30px 0;}
+blockquote.alignright, figure.wp-caption.alignright, img.alignright {margin:7px 0 24px 50px;}
+.wp-caption.alignright {margin: 7px 0 30px 32px;}
+blockquote.aligncenter, img.aligncenter, .wp-caption.aligncenter {margin-top: 44px; margin-bottom: 40px;}
+img.alignnone {margin:43px 0 41px; display: block; clear: both;}
+.hide {display: none;}
+
+/* Genericons */
+.bypostauthor > article .fn:before, .comment-edit-link:before, .comment-reply-link:before, .comment-reply-login:before, .comment-reply-title small a:before, .contributor-posts-link:before, .menu-toggle:before, .search-toggle:before, .slider-direction-nav a:before, .widget_twentyfourteen_ephemera .widget-title:before {-webkit-font-smoothing: antialiased; display: inline-block; font: normal 16px/1 Genericons; text-decoration: inherit; vertical-align: text-bottom;}
+.comment-form label {display: block;}
+.comment-form input[type="text"], .comment-form input[type="email"], .comment-form input[type="url"] {width: 100%;}
+
+.clearfix {clear: both;}
+* {box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -webkit-backface-visibility: hidden; -moz-backface-visibility: hidden; -ms-backface-visibility: hidden; backface-visibility: hidden;}
+
+
+/*-- flex css starts here --*/
+.flex{display: -webkit-box; display: -moz-box; display: -ms-flexbox; display: -webkit-flex; display: flex; flex-wrap: wrap; width: 100%; }
+.flex-vcenter{-webkit-box-align: center; -moz-box-align: center; -ms-flex-align: center; -webkit-align-items: center; align-items: center; }
+.flex-content-center{-ms-justify-content: center; -moz-justify-content: center; -webkit-justify-content: center; justify-content: center; }
+.flex-center{-webkit-box-align: center; -moz-box-align: center; -ms-flex-align: center; -webkit-align-items: center; align-items: center; -ms-justify-content: center; -moz-justify-content: center; -webkit-justify-content: center; justify-content: center; }
+.flex-nowrap{flex-wrap: nowrap; }
+.table{ display: table; width: 100%; height: 100%;}
+.table-cell{display: table-cell; vertical-align: middle;}
+.grid{display: grid; display: -moz-grid; display: -ms-grid;}
+
+
+/*-- media css starts here --*/
+@media only screen and (max-width: 1200px){
+h1 {font-size: 3.25rem; letter-spacing: -2.23px;}
+}
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+	
+}
+@media only screen and (max-width: 767px) and (min-width: 200px){
+    
+}

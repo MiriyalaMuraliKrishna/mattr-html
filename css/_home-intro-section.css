@@ -1,0 +1,12 @@
+.home-intro-main{gap: 49px;}
+.home-intro-text{text-align: right; padding-top: 99px;}
+.home-intro-text span{display: block; font-weight: bold; color: #61b0bc; font-size: 1.375rem; letter-spacing: -0.37px; margin-bottom: 26px;}
+.home-intro-text h2{font-weight: normal; color: #003a70; font-size: 2.688rem; letter-spacing: -0.72px; margin-bottom: 38px;}
+.home-intro-image img{clip-path: polygon(0 0, 100% 0, 69% 100%, 0% 100%);}
+
+@media only screen and (min-width: 1024px){
+    .home-intro-main{flex-wrap: nowrap;}
+    .home-intro-image{flex: 687px;}
+    .home-intro-text{flex: calc(100% - 737px);}
+    .home-intro-text h2{max-width: 770px;}    
+  }

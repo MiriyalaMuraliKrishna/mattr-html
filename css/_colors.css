@@ -1,0 +1,18 @@
+:root {
+    --black: #000000;
+    --white: #ffffff;
+    --white-20: rgb(255 255 255 / 20%);
+    --white-50: rgb(255 255 255 / 50%);
+    --white-75: rgb(255 255 255 / 75%);
+    --body-text: #1a1919;
+	--heading: #003a70;
+	--small:#61b0bc;
+	--anchor: #0055b8;
+	--anchor-hover: #003a70;
+	--light-blue: #759cbf;
+	--input-border:#d9e0e7;
+	--light-bluebg:#f3f8fe;
+	--lighter-blue:#c0cfe1;
+	--sub-blue: #73a3cf;
+    
+}

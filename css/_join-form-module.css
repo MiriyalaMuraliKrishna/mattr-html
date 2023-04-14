@@ -1,0 +1,4 @@
+.join-form form {display: flex; flex-wrap: wrap; width: 100%}
+.join-form form .form-field {display: inline-block; width:48.5%; margin: 0 0 14px 18px;}
+.join-form form .form-field:first-child {margin-left: 0;}
+.join-form form .frm_submit {margin: 0;}

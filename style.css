@@ -1,0 +1,317 @@
+@charset "utf-8";
+
+/*
+
+Theme Name: Mattr Infrastructure Technologies
+
+Theme URI: https://parachutedesign.ca/
+
+Author: 
+
+Author URI: https://parachutedesign.ca/
+
+Description: 
+
+Version: 2023.04-03
+
+Text Domain: Mattr Infrastructure Technologies
+
+*/
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+@import url("css/_colors.css");
+
+@import url("css/_reset.css");
+
+@import url("css/_header.css");
+
+@import url("css/_footer.css");
+
+
+
+
+
+/*-- customized styles starts here --*/
+
+body{font-family: 'Montserrat', sans-serif; color: var(--body-text);  font-size: 1rem; line-height: 1.56; font-weight: 300; font-style: normal; letter-spacing: -0.6px; overflow-x: hidden; background: var(--white); height: 100%; display: flex; flex-direction: column;}
+
+#main {overflow: hidden; position: relative; float: left; width: 100%; flex: 1 0 auto;}
+
+#mainContent {clear: both; position: relative; float: left; width: 100%; padding: 131px 0 0 0;}
+
+.container-lg{max-width: 1700px; padding: 0 45px 0 41px; margin: 0 auto;}
+
+.container{max-width: 1360px; margin: 0 auto; width: 100%;}
+
+.container-md{max-width: 1056px; margin: 0 auto; width: 100%;}
+
+.container-sm{max-width:890px; margin: 0 auto; width: 100%;}
+
+
+
+.btn {display: block;}
+
+
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {color: var(--heading);}
+
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {color: var(--anchor);}
+
+.h3 {font-size: 1.813rem; line-height: normal; letter-spacing: -0.48px; margin-bottom: 10px; display: block; font-weight: 700;}
+
+
+
+
+
+/* Banner Bg */
+
+.banner-bg {top: 0; left: 0; right: 0; bottom: 0; width: 100%; height: 100%; position: absolute; z-index: -1;}
+
+.banner-bg img {width: 100%; height: 100%; font-family: "object-fit: cover;"; object-fit: cover; -o-object-fit: cover; object-position: 0 0; -o-object-position: 0 0;}
+
+
+
+
+
+/* Background Bg */
+
+.background-bg {top: 0; left: -49px; right: 0; bottom: 0; width: calc(100% + 98px); height: 100%; position: absolute; z-index: -1; max-width: 1798px; margin: 0 auto; background-color: #003a70; clip-path: polygon(15.2% 0%, 100% 0%, 84.7% 100%, 0% 100%);}
+
+.background-bg:after {content: ""; background: rgb(0,85,184);
+
+background: radial-gradient(circle, rgba(0,85,184,1) 0%, rgba(0,85,184,0) 50%); position: absolute; left: 0; right: 0; margin: auto; display: block; width: 100%; height: 100%; top: 0;}
+
+.background-bg picture {max-width: 1700px; margin: 0 auto;}
+
+.background-bg picture img {object-position: right 0;}
+
+
+
+/* Image Cover */
+
+.pos-relative{position: relative;}
+
+figure.object-fit{width: 100%; height: 100%; display: block;}
+
+picture.object-fit{width: 100%; height: 100%; display: block;}
+
+.object-fit img{width: 100%; height: 100%; font-family: "object-fit: cover;"; object-fit: cover; -o-object-fit: cover; object-position: 50% 50%; -o-object-position: 50% 50%;}
+
+
+
+img.mobile {display: none;}
+
+
+
+
+
+
+
+.play-btn-main {width: 100%; height: 100%; top: 0; left: 0; right: 0; bottom: 0; position: absolute; }
+
+.play-btn-main .play-btn {width: 82px; height: 82px; background-color: transparent; border-radius: 50%; color: var(--white); cursor: pointer; transition: all 0.5s ease-in-out; position: relative; z-index: 1;}
+
+.play-btn-main .play-btn::before{width: 100%; height: 100%; opacity: 0.9; top: 0; left: 0; background-color: var(--red-color); border-radius: 50%; content: ""; display: block; position: absolute; z-index: -1; transition-duration: 0.3s; transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1); transition-property: all; transition-delay: 0s;}
+
+.play-btn-main .play-btn:hover::before{opacity: 1; transform: scale(1.125);}
+
+
+
+.play-btn-main .play-btn img{width: 24px;}
+
+.play-btn-main span{font-size: 24px; line-height: normal; left: 3px; position: relative;}
+
+
+
+/* Default Slick navigations */
+
+.slick-arrow{top:50%; transform: translateY(-50%); left: 0; right: 0; position: absolute; display: flex!important; align-items: center; justify-content: center; cursor: pointer; transition: all 0.3s ease-in-out; z-index: 2; color: var(--white); line-height: normal; border:0 none; background: var(--crimson-glory); width: 56px; height: 100px; font-size: 2rem;}
+
+
+
+.slick-arrow.prev-arrow{right: auto; left: 0;}
+
+.slick-arrow.next-arrow{right: 0; left: auto;}
+
+.slick-arrow.slick-disabled{pointer-events: none; display: none!important;}
+
+.slick-arrow:hover{background: var(--clc-hoverbtn);}
+
+
+
+ul.slick-dots{margin: 0; padding-top: 27px; display: flex; justify-content: center; flex-wrap: wrap;}
+
+ul.slick-dots li{margin: 0 4px; display: inline-block; font-size: 0; line-height: 0;}
+
+ul.slick-dots li::before, ul.slick-dots li button:before, ul.slick-dots li button:after {display: none;}
+
+ul.slick-dots li button{width: 7px; height: 7px; min-width: 0; padding: 0; font-size: 0; line-height: 0; border: 0 none; background: var(--anchor); opacity: 0.2;}
+
+ul.slick-dots li.slick-active button{ background: var(--anchor); opacity: 1;}
+
+
+
+
+
+select.selectBox{display: none;}
+
+body .selectBox-dropdown{outline: 0; width: 100%; font-size: 1rem; line-height:1.56; letter-spacing: -0.47px; background: var(--white); color: var(--body-text); box-shadow: none; border-radius: 26px!important; padding: 13px 40px 13px 23px; vertical-align: middle; font-family: 'Montserrat', sans-serif; font-weight: normal; height: auto; border:solid 2px var(--input-border); text-transform: capitalize; transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; cursor: pointer;}
+
+body .selectBox-dropdown:focus, body .selectBox-dropdown:focus .selectBox-arrow{border-color:  rgba(207, 216, 223, 0.5);}
+
+body .selectBox-dropdown .selectBox-label{padding: 0; display: block;}
+
+body .selectBox-dropdown .selectBox-label a{color: inherit;}
+
+body .selectBox-dropdown .selectBox-arrow{width: auto; right: 25px; top: 50%; transform: translateY(-50%); font-size: 14px; color: var(--anchor); border: none; font-family: "Font Awesome 6 Pro"; font-weight: 900; position: absolute; display: flex; align-items: center; transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; background: none;}
+
+body .selectBox-dropdown .selectBox-arrow::after{content: "\f107"; }
+
+body .selectBox-dropdown.selectBox-menuShowing .selectBox-arrow{transform: translateY(-50%) rotate(-180deg);}
+
+body ul.selectBox-dropdown-menu{border-color: transparent; padding:17px 0 9px; margin: 5px 0 0 0; border: solid 2px var(--input-border)!important; box-shadow: 0 1px 4px rgba(0,0,0,.2); -webkit-box-shadow: 0 1px 4px rgba(0,0,0,.2); -moz-box-shadow: 0 1px 4px rgba(0,0,0,.2); border-radius: 26px!important;}
+
+body ul.selectBox-dropdown-menu li{margin-bottom: 10px; padding: 0 23px; }
+
+body ul.selectBox-dropdown-menu li:first-child{display: none;}
+
+body ul.selectBox-dropdown-menu li::before{display: none; }
+
+body ul.selectBox-dropdown-menu li a{font-size: 15px; line-height: 24px; letter-spacing: normal; display: block; padding: 0; white-space: nowrap; text-transform: capitalize; color: var(--body-text); overflow: hidden; text-overflow: ellipsis;}
+
+body ul.selectBox-dropdown-menu li.selectBox-selected a, body ul.selectBox-dropdown-menu li a:hover{color: var(--anchor-hover); background-color: transparent; cursor: pointer; font-weight: 500;}
+
+
+
+/*-- common form css starts here --*/
+
+.frm_forms.frm_style_formidable-style.with_frm_style .frm_form_fields .frm_fields_container {display: block;}
+
+.frm_forms.frm_style_formidable-style.with_frm_style .frm_form_fields .frm_form_field .frm_error {right: 0 !important; width: 100%; display: block; font-size: 0.688rem !important; color: #f00 !important; background: transparent; padding: 0; margin: 0; border-radius: 0; text-align: right !important; line-height: normal !important; font-weight: normal; top: -19px; position: absolute;}
+
+.frm_forms .frm_form_fields fieldset {margin: 0; padding: 0; border: 0;}
+
+.frm_forms .frm_form_fields .frm_form_field {margin-bottom:45px; position: relative;}
+
+.frm_forms .frm_form_fields .frm_form_field.frm_full {clear: both;}
+
+.frm_forms .frm_form_fields .frm_form_field.vertical_radio label {padding-left: 30px; display: block;}
+
+.frm_forms .frm_form_fields .frm_form_field label {font-weight: bold; font-size: 1rem; line-height: 1.5;}
+
+
+
+.frm_forms .frm_form_fields input, .frm_forms .frm_form_fields textarea, .frm_forms .frm_form_fields select {font-family: "sweet-sans-pro", sans-serif; font-weight: 800; display: block; outline: 0; border-radius: 0; box-shadow: none; font-size: 1rem; line-height: normal; font-style: normal; vertical-align: middle; -webkit-appearance: none; background-color: var(--clc-input); color: var(--clc-dark-txt); border:0 none; border-bottom: solid 1px #87a3b8; padding:11px 21px 13px 16px; width: 100%; box-shadow: none;}
+
+.frm_forms .frm_form_fields input:focus, .frm_forms .frm_form_fields textarea:focus {box-shadow: none; border-bottom:solid 1px #87a3b8;} 
+
+.frm_forms .frm_form_fields textarea {min-height: 160px;}
+
+.frm_forms .frm_form_fields .selectBox-dropdown {border: solid 1px #dde4e5; padding:18px 37px 20px 21px; color: var(--clc-dark-txt);}
+
+.frm_forms .frm_form_fields .selectBox-dropdown.selectBox-active {color: var(--crimson-glory);}
+
+.frm_forms .frm_form_fields div.selector {margin-top: 16px;}
+
+.frm_forms .frm_form_fields .submit-wrap {display: flex; flex-wrap: wrap; width: 100%; align-items: center;}
+
+.frm_forms .frm_form_fields .submit-wrap .frm_submit {width:179px; margin: 0 6px 0 0;}
+
+.frm_forms .frm_form_fields .submit-wrap .divider {float: none; width: calc(100% - 187px); display: inline-block; margin-left: auto;}
+
+.frm_forms .frm_form_fields .submit-wrap .divider hr {width: 100%; right: 0; position: inherit;}
+
+.frm_forms .frm_form_fields .submit-wrap .divider .divider-lt {text-align: right;}
+
+.frm_forms .frm_form_fields .submit-wrap .divider .container {padding: 0;}
+
+
+
+.frm_forms .frm_submit {margin: 40px 0 0 0;}
+
+.form-field {position: relative; margin-bottom: 20px;}
+
+/*-- common form css ends here --*/
+
+
+
+.txt-btn {position: relative; display: block; width: 12rem;}
+
+.txt-btn:hover {color: var(--anchor);}
+
+.txt-btn .icon {transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1); position: absolute; top: 0; bottom: 0; left: 0; margin: auto; width:48px;}
+
+.txt-btn .icon.arrow::before {content: "\f061"; font-size:1rem; font-family: "Font Awesome 6 Sharp"; font-weight: 400; transition: all 0.3s ease-in-out; position: absolute; display: flex; align-items: center; flex-wrap: wrap; top: 2px; bottom: 0;}
+
+.txt-btn:hover .icon.arrow {transform: translate(6.3rem, 0);}
+
+.txt-btn:hover .icon.arrow:before {content: "\e09f";}
+
+
+
+.txt-btn:hover .button-text {opacity: 1; margin: 0 20px 0 0; visibility: visible;}
+
+.txt-btn .button-text {transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1); padding: 0.75rem 0; font-weight: 700; font-size: 0.688rem; text-transform: uppercase; letter-spacing: 1.6px; visibility: hidden; opacity: 0;}
+
+
+
+
+
+.section-head {clear: both; width: 100%; margin: 0 0 50px 0;}
+
+.section-head p {max-width: 655px;}
+
+
+
+/*-- media css starts here --*/
+
+@media only screen and (max-width: 1400px){
+
+	.container {padding: 0 20px; max-width: 100%;}
+
+}
+
+@media only screen and (min-width: 1024px){
+
+    .hide-desktop{display: none;}
+
+}
+
+@media only screen and (max-width: 1440px) and (min-width: 1024px){
+
+    
+
+}
+
+@media only screen and (max-width: 1399px) and (min-width: 1024px){
+
+   
+
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+
+    .container{padding: 0 30px;}
+
+    .hide-tablet{display: none;}
+
+   
+
+}
+
+@media only screen and (max-width: 767px) and (min-width: 200px){
+
+    .container{padding: 0 20px;}
+
+    .hide-mobile{display: none;}
+
+
+
+  
+
+}
