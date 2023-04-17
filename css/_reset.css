@@ -157,8 +157,9 @@ img.alignnone {margin:43px 0 41px; display: block; clear: both;}
 h1 {font-size: 3.25rem; letter-spacing: -2.23px;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
-	
+	h2 {font-size:2.125rem; letter-spacing: -0.57px;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
-    
+	h1 {font-size: 2.688rem; letter-spacing: -1.84px; margin-bottom: 20px;}
+	h2 {font-size: 2rem; letter-spacing: -0.53px;}
 }
