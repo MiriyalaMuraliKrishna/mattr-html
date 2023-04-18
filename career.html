@@ -17,56 +17,70 @@
 <link rel="stylesheet" type="text/css" href="css/careers.css" media="all"/>
 </head>
 <body class="page-template-careers white_header">
-	<div class="map banner-bg">
-	<picture>
-                  <source srcset="images/career-bg@2x.jpg" media="(min-width: 768px)">
-                  <img src="images/career-bg@2x.jpg" alt="career-map-mobile"> </picture>
-	</div>
+<div class="map-bg">
+ <figure>   
+    <img src="images/map-bg.svg" alt="career-map-mobile"> </figure>
+</div>
 <div id="main">
   <header id="main_header" class="main_header">
     <div class="container-lg">
       <div class="header flex">
         <div class="logo"> <span class="logo-pos normal-logo"> <a href="index.html"><img src="images/logo.svg" alt="Mattr Infrastructure Technologies Logo"></a> </span> <span class="logo-pos fixed-logo"> <a href="index.html"><img src="images/logo-sticky.svg" alt="Mattr Infrastructure Technologies Logo"></a> </span> </div>
-        
-        <div class="toggle_button flex flex-center"> <a href="javascript:void();"> <span class="line line1"></span> <span class="line line2"></span> <span class="line line3"></span> </a> </div>
+        <div class="menu-icon flex flex-center"> <a class="menu_icon" href="javascript:void();"> <span class="line line1"></span> <span class="line line2"></span> <span class="line line3"></span> </a> </div>
         <div class="header_right mobile_menu flex">
-          <div class="header-top"> 
-			<div class="top-nav">
-				<ul>
-				<li><a href="#"><span class="fa-solid fa-comment-dots"></span>Contacts By brand</a></li>
-					<li><a href="#"><span class="fa-solid fa-location-dot"></span>Global Locations</a></li>
-				</ul>
-			</div><!-- end of top nav -->
-			  <div class="lang-nav">
-				  <ul>
-				<li><a href="#" class="current_language">EN</a></li>
-					<li><a href="#">FR</a></li>
-				</ul>
-			</div><!-- end of lang nav -->
+			<div class="header-map hide-in-desktop"><img src="images/map-bg.svg" alt="Menu Map"/></div>
+          <div class="header-top">
+            <div class="top-nav">
+              <ul>
+                <li><a href="#"><span class="fa-solid fa-comment-dots"></span>Contacts By brand</a></li>
+                <li><a href="#"><span class="fa-solid fa-location-dot"></span>Global Locations</a></li>
+              </ul>
+            </div>
+            <!-- end of top nav -->
+            <div class="lang-nav">
+              <ul>
+                <li><a href="#" class="current_language">EN</a></li>
+                <li><a href="#">FR</a></li>
+              </ul>
+            </div>
+            <!-- end of lang nav --> 
           </div>
           <div class="header-btm">
             <nav class="navigation mobile_menu">
               <ul class="main_menu">
                 <li class="menu-item-has-children" id="menu-item-45"> <a href="#">Company</a>
-                  <ul class="sub-menu">
-                    <li><a href="#">Motor Vehicle Accidents</a></li>
-                    <li><a href="#">Motorcycle Accidents</a></li>
-                    <li><a href="#">Bicycle Accidents</a></li>
-                    <li><a href="#">Pedestrain Accidents</a></li>
-                    <li><a href="#">Long Term Disability</a></li>
-                    <li><a href="#">Canada Pensio Plan Disability</a></li>
-                    <li><a href="#">Slip and Fall Accidents</a></li>
-                    <li><a href="#">Product Liability</a></li>
-                    <li><a href="#">Personal Injury</a></li>
-                    <li><a href="#">Civil Claims for Sexual Assault</a></li>
-                    <li><a href="#">Fatal Accidents/Wrongful Death</a></li>
-                    <li><a href="#">Class Action/Mass Torts</a></li>
+				  <ul class="sub-menu">
+									<li><a href="#">Markets</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Investors</a></li>
+                <li><a href="#">Contact</a></li>
+								</ul>
+				  </li>
+                <li class="menu-item-has-children flex-menu" id="menu-item-46"><a href="#">Brand &amp; Technologies</a> 
+				  <ul class="sub-menu">
+                    <li>
+						<div class="nav-logo"><a href="#"><img src="images/xerxes-logo.svg" alt="XERXES"/></a></div>
+						<span>Hydrochain Stormwater Solutions</span>
+					  <a href="#" class="txt-btn"> <span class="icon arrow"></span> <span class="button-text">Learn More</span></a>
+					  </li>
+                    <li><div class="nav-logo"><a href="#"><img src="images/shawflex-logo.svg" alt="SHAWWFLEX"/></a></div>
+						<span>Engineered custom-specified wire
+and cable products.</span>
+					  <a href="#" class="txt-btn"> <span class="icon arrow"></span> <span class="button-text">Learn More</span></a></li>
+                    <li><div class="nav-logo"><a href="#"><img src="images/DSG-canusa-logo.svg" alt="DSG-CANUSA"/></a></div>
+						<span>Integrated heat-shrink
+and cold-shrink tubing.</span>
+					  <a href="#" class="txt-btn"> <span class="icon arrow"></span> <span class="button-text">Learn More</span></a></li>
+					  <li><div class="nav-logo"><a href="#"><img src="images/flexpipe-logo.svg" alt="FLEXPIPE"/></a></div>
+						<span>Engineered custom-specified wire
+and cable products.</span>
+					  <a href="#" class="txt-btn"> <span class="icon arrow"></span> <span class="button-text">Learn More</span></a></li>
+                   
                   </ul>
-                </li>
-                <li class="menu-item-has-children" id="menu-item-46"><a href="#">Brand &amp; Technologies</a> </li>
+				  </li>
                 <li><a href="#">Markets</a></li>
                 <li><a href="#">Careers</a></li>
-                <li><a href="#">Investors</a></li>				  
+                <li><a href="#">Investors</a></li>
                 <li><a href="#">Contact</a></li>
               </ul>
             </nav>
@@ -79,26 +93,24 @@
   <main id="mainContent">
     <section class="want-to-join">
       <div class="container">
-        <div class="want-to-join-wrap"> <small>Want to join us?</small>
+        <div class="want-to-join-wrap"> <span class="optional-text">Want to join us?</span>
           <h1>Careers</h1>
           <div class="join-form">
-            <div class="frm_forms  with_frm_style frm_style_formidable-style">
-              <form action="" id="" class="" method="post">
-                <div class="frm_form_field form-field">
-                  <input type="search" id="" name="search" value="" placeholder="Search by name..." data-reqmsg="" aria-required="true" data-invmsg="" autocomplete="off">
-                </div>
-                <div class="frm_form_field form-field">
-                  <select id="" name="">
-                    <option value="-1">Search by Location</option>
-                    <option value="location one">Location One</option>
-                    <option value="location two">Location Two</option>
-                  </select>
-                </div>
-                <div class="frm_submit">
-                  <button class="frm_button_submit frm_final_submit" type="submit" formnovalidate>Search</button>
-                </div>
-              </form>
-            </div>
+            <form action="" class="" method="post">
+              <div class="frm_form_field form-field">
+                <input type="search" id="" name="search" value="" placeholder="Search by name..." data-reqmsg="" aria-required="true" data-invmsg="" autocomplete="off">
+              </div>
+              <div class="frm_form_field form-field">
+                <select id="" name="">
+                  <option value="-1">Search by Location</option>
+                  <option value="location one">Location One</option>
+                  <option value="location two">Location Two</option>
+                </select>
+              </div>
+              <div class="frm_submit">
+                <button class="frm_button_submit frm_final_submit" type="submit" formnovalidate>Search</button>
+              </div>
+            </form>
           </div>
           <!--end of join form --> 
           
@@ -143,11 +155,44 @@
       </div>
     </section>
     <!-- end of focus on talent -->
+	  
+	  <section class="innovative-infrastructure pos-relative">
+		  <div class="banner-bg">
+  <picture class="object-fit">
+    <source srcset="images/innovative-infrastructure-bg@2x.jpg" media="(min-width: 768px)">
+    <img src="images/innovative-infrastructure-bg@2x.jpg" alt="Innovative Infrastructure Background"> </picture>
+</div>
+      <div class="container">
+          <div class="innovative-inner flex">
+            <div class="innovative-cnt">
+              <h2><strong>Innovative infrastructure</strong> technologies for better.</h2>
+				<div class="innovative-thumb"></div>
+              
+            </div>
+            <!-- end of innovative cnt -->
+            <div class="innovative-txt">
+              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large ocean.</p>
+              <p>Far far away, behind the word mountains. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large ocean.</p>
+              <a href="#" class="button">Optional Button</a>
+            </div>
+            <!-- end of innovative txt --> 
+          </div>
+          <!-- end of innovative inner --> 
+          
+     
+        
+      </div>
+    </section>
+    <!-- end of innovative infrastructure -->
+	  
+	  
+	  
+	  
     <section class="download-report">
       <div class="container">
         <div class="download-inner">
           <div class="download-single flex">
-            <div class="download-cnt"> <small>Sample Pre-Heading Text</small>
+            <div class="download-cnt"> <span class="optional-text">Sample Pre-Heading Text</span>
               <h2><strong>We value healthier, more equitable world</strong> for our families.</h2>
               <div class="btns"><a href="#" class="button">Download 2022 Report</a></div>
             </div>
@@ -174,27 +219,35 @@
         <div class="features-lists flex">
           <div class="features-list">
             <div class="feature-icon"><img src="images/feature-icon.svg" alt="Feature Icon"/></div>
-            <h5><a href="#">Feature Name</a></h5>
-            <p>Separated they live in Bookmarksgrove right at the coast of the Semantics.</p>
-            <a href="#" class="txt-btn"> <span class="icon arrow"></span> <span class="button-text">Learn More</span></a> </div>
+            <div class="feature-txt">
+              <h5><a href="#">Feature Name</a></h5>
+              <p>Separated they live in Bookmarksgrove right at the coast of the Semantics.</p>
+              <a href="#" class="txt-btn"> <span class="icon arrow"></span> <span class="button-text">Learn More</span></a> </div>
+          </div>
           <!-- end of features list -->
           <div class="features-list">
             <div class="feature-icon"><img src="images/feature-icon.svg" alt="Feature Icon"/></div>
-            <h5><a href="#">Feature Name</a></h5>
-            <p>Separated they live in Bookmarksgrove right at the coast of the Semantics.</p>
-            <a href="#" class="txt-btn"> <span class="icon arrow"></span> <span class="button-text">Learn More</span></a> </div>
+            <div class="feature-txt">
+              <h5><a href="#">Feature Name</a></h5>
+              <p>Separated they live in Bookmarksgrove right at the coast of the Semantics.</p>
+              <a href="#" class="txt-btn"> <span class="icon arrow"></span> <span class="button-text">Learn More</span></a> </div>
+          </div>
           <!-- end of features list -->
           <div class="features-list">
             <div class="feature-icon"><img src="images/feature-icon.svg" alt="Feature Icon"/></div>
-            <h5><a href="#">Feature Name</a></h5>
-            <p>Separated they live in Bookmarksgrove right at the coast of the Semantics.</p>
-            <a href="#" class="txt-btn"> <span class="icon arrow"></span> <span class="button-text">Learn More</span></a> </div>
+            <div class="feature-txt">
+              <h5><a href="#">Feature Name</a></h5>
+              <p>Separated they live in Bookmarksgrove right at the coast of the Semantics.</p>
+              <a href="#" class="txt-btn"> <span class="icon arrow"></span> <span class="button-text">Learn More</span></a> </div>
+          </div>
           <!-- end of features list -->
           <div class="features-list">
             <div class="feature-icon"><img src="images/feature-icon.svg" alt="Feature Icon"/></div>
-            <h5><a href="#">Feature Name</a></h5>
-            <p>Separated they live in Bookmarksgrove right at the coast of the Semantics.</p>
-            <a href="#" class="txt-btn"> <span class="icon arrow"></span> <span class="button-text">Learn More</span></a> </div>
+            <div class="feature-txt">
+              <h5><a href="#">Feature Name</a></h5>
+              <p>Separated they live in Bookmarksgrove right at the coast of the Semantics.</p>
+              <a href="#" class="txt-btn"> <span class="icon arrow"></span> <span class="button-text">Learn More</span></a> </div>
+          </div>
           <!-- end of features list --> 
         </div>
         <!-- end of features lists --> 
@@ -211,27 +264,29 @@
         <div class="milestone-main flex">
           <div class="milestone-grid">
             <div class="milestone-icon"><span>1</span></div>
+			  <div class="milestone-txt">
             <h4>Milestone Heading</h4>
             <p>Separated they live in Bookmarksgrove right at the coast of the Semantics.</p>
-          </div>
+          </div></div>
           <!-- end of milestone grid -->
           <div class="milestone-grid">
-            <div class="milestone-icon"><span>2</span></div>
+            <div class="milestone-icon"><span>2</span></div><div class="milestone-txt">
             <h4>Milestone Heading</h4>
             <p>Separated they live in Bookmarksgrove right at the coast of the Semantics.</p>
-          </div>
+			  
+          </div></div>
           <!-- end of milestone grid -->
           <div class="milestone-grid">
-            <div class="milestone-icon"><span>3</span></div>
+            <div class="milestone-icon"><span>3</span></div><div class="milestone-txt">
             <h4>Milestone Heading</h4>
             <p>Separated they live in Bookmarksgrove right at the coast of the Semantics.</p>
-          </div>
+          </div></div>
           <!-- end of milestone grid -->
           <div class="milestone-grid">
-            <div class="milestone-icon"><span>4</span></div>
+            <div class="milestone-icon"><span>4</span></div><div class="milestone-txt">
             <h4>Milestone Heading</h4>
             <p>Separated they live in Bookmarksgrove right at the coast of the Semantics.</p>
-          </div>
+          </div></div>
           <!-- end of milestone grid --> 
         </div>
         <!-- end of milestone main -->
@@ -244,22 +299,25 @@
         <div class="career-wrap">
           <div class="career-slider flex">
             <div class="slider slider-nav">
-              <div class="career-txt"> <small>Section Title</small>
+              <div class="career-txt"> <span class="optional-text">Section Title</span>
                 <h2>Innovative infrastructure technologies <strong>for better</strong>.</h2>
                 <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit. Cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit.</p>
                 <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit.</p>
+				  <div class="btn hide-in-desktop hide-in-tab"><a href="#" class="button">Optional Button</a></div>
               </div>
               <!-- end of career txt -->
-              <div class="career-txt"> <small>Section Title 2</small>
+              <div class="career-txt"> <span class="optional-text">Section Title 2</span>
                 <h2>Innovative infrastructure technologies <strong>for better</strong>.</h2>
                 <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit. Cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit.</p>
                 <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit.</p>
+				  <div class="btn hide-in-desktop hide-in-tab"><a href="#" class="button">Optional Button</a></div>
               </div>
               <!-- end of career txt -->
-              <div class="career-txt"> <small>Section Title 3</small>
+              <div class="career-txt"> <span class="optional-text">Section Title 3</span>
                 <h2>Innovative infrastructure technologies <strong>for better</strong>.</h2>
                 <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit. Cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit.</p>
                 <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit.</p>
+				  <div class="btn hide-in-desktop hide-in-tab"><a href="#" class="button">Optional Button</a></div>
               </div>
               <!-- end of career txt --> 
               
