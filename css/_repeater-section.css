@@ -5,7 +5,7 @@
 
 
  /*-- media starts here --*/
- @media only screen and (max-width: 1700px){
+ @media only screen and (min-width: 1024px){
     .repeater-list{gap: 166px; margin-bottom: 90px;}
     .repeater-list:nth-child(even){flex-direction: row-reverse;}
     .repeater-content{flex: 0 0 calc(100% - 704px);}
