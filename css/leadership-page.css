@@ -58,6 +58,8 @@ span.leadership-position a{color: #73a3cf;}
   .leadership-banner-image{width: 528px;}
   .leadership-banner-text { width: calc(100% - 558px); }
   .leadership-banner-text span{margin-bottom: 10px;}
+  .leadership-page-thumb::after{clip-path: polygon(0 39%, 100% 79%, 100% 100%, 0 61%);}
+  .leadership-page-thumb:hover::after{height: 115px;}
   .leadership-page-row{gap: 20px;}
   .leadership-page-list{flex: 0 0 calc(33.3333% - 14px);}
 }
@@ -72,6 +74,8 @@ span.leadership-position a{color: #73a3cf;}
   .leadership-innovative-text{padding: 30px 0 64px 0;}
   .leadership-innovative-thumb img{clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);}
   .innovative-desc{text-align: right;}
+  .leadership-page-thumb::after{clip-path: polygon(0 36%, 100% 79%, 100% 100%, 0 58%);}
+  .leadership-page-thumb:hover::after{height: 115px;}
   .leadership-page-row{gap: 30px;}
   .leadership-page-list{flex: 0 0 calc(50% - 15px);}
 }
@@ -86,5 +90,7 @@ span.leadership-position a{color: #73a3cf;}
   .leadership-innovative-text h2{font-size: 2rem; letter-spacing: -0.53px;}
   .leadership-innovative-thumb img{clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);}
   .innovative-desc{text-align: right;}
+  .leadership-page-thumb::after{clip-path: polygon(0 33%, 100% 79%, 100% 100%, 0 55%);}
+  .leadership-page-thumb:hover::after{height: 115px;}
   .leadership-page-main{padding-top: 70px;}
 }
