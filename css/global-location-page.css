@@ -8,10 +8,10 @@
 /* Global location section */
     .container-xmd{max-width: 1122px; margin:0 auto; width:100%;}
     .global-location-wrap{padding: 50px 0 90px;}
-    .loc-accordion-head{ position: relative;   padding: 43px 0 45px; font-size: 1.375rem; letter-spacing: -0.37px; font-weight: bold; color: var(--anchor-hover); border-bottom: 2px solid rgba(0, 58, 85, 0.13);}
-   /* .loc-accordion-head:first-child{border-bottom: none;}*/
-    .loc-accordion-list:last-child .loc-accordion-head{border-bottom: none;} 
+    .loc-accordion-head{ position: relative; padding: 43px 0 45px; font-size: 1.375rem; letter-spacing: -0.37px; font-weight: bold; color: var(--anchor-hover); border-bottom: 2px solid rgba(0, 58, 85, 0.13); cursor: pointer;}
     .loc-accordion-head::after{content: "\f063";   right: 0px; top: 50%; font-family: 'Font Awesome 6 Pro'; font-weight: 600; font-size: 16px; display: inline-block;line-height: 0; margin: auto; position: absolute; }
+    .loc-accordion-head.open::after{content: "\f062";}
+    .loc-accordion-list:last-child .loc-accordion-head{border-bottom: none;} 
     .global-location-col{font-size: 0.875rem; font-weight: 300; letter-spacing: -0.41px; color: var(--body-text);}
     .global-location-col span{display:block; font-size: 1.125rem; letter-spacing: -0.3px; font-weight: 600; line-height: normal; color: var(--anchor-hover); margin-bottom: 25px;}
     .loc-accordion-content{display: none;}
