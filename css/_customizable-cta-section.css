@@ -4,12 +4,23 @@
 .customizable-main{justify-content: space-between; align-items: center;}
 .customizable-thumb img{clip-path: polygon(0 0, 100% 0%, 72% 100%, 0% 100%); min-height: 344px;}
 .customizable-content h2{color: var(--white); font-weight: 800; letter-spacing:-0.75px;font-weight: normal; margin-bottom: 15px; font-size: 2.813rem;}
+.customizable-content .optional-text{color: #8fd5df;}
+
 
 /*-- media starts here --*/
+@media only screen and (max-width: 1508px) and (min-width: 1024px){
+    .frm_feedback{display: block;}
+    .frm_feedback button{margin-bottom: 10px;}
+    .frm_feedback button:last-child{margin-bottom: 0;}
+}
 @media only screen and (min-width: 1024px){
     .customizable-main{gap: 96px;}
     .customizable-thumb{flex: 0 0 661px;}
-    .customizable-content{flex: 0 0 calc(100% - 757px); color: var(--white); padding: 145px 274px 150px 0;}
+    .customizable-content{flex: 0 0 calc(100% - 757px); color: var(--white); padding: 145px 74px 150px 0;}
+    .frm_feedback button{margin-right: 10px;}
+}
+@media only screen and (min-width: 1700px){
+    .customizable-content{padding-right: 266px;}
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
     .customizable-main{gap: 30px; padding: 90px 74px 90px 0;}
@@ -19,11 +30,20 @@
     .frm_feedback button{margin-bottom: 20px;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
-    .customizable-cta-bg{padding-top: 240p}
     .customizable-main{display: block; padding: 0;}
     .customizable-thumb img{clip-path: polygon(0 0, 100% 0%, 100% 81%, 0% 100%);}
     .customizable-thumb{margin-bottom: 8x;}
     .customizable-content{ color: var(--white); padding: 85px 20px 120px 20px;}
     .customizable-content h2{font-size: 2.5rem; margin-bottom: 15px;}
     .frm_feedback button{margin-bottom: 20px;}
+}
+@media only screen and (max-width: 767px) and (min-width: 200px){
+    .customizable-main{display: block; padding: 0;}
+    .customizable-thumb img{clip-path: polygon(0 0, 100% 0%, 100% 81%, 0% 100%);}
+    .customizable-thumb{margin-bottom: 8x;}
+    .customizable-content{ color: var(--white); padding: 65px 20px 90px 20px;}
+    .customizable-content h2{font-size: 2rem; margin-bottom: 25px;}
+    .frm_feedback button{margin-bottom: 20px;}
+
+
 }

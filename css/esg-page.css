@@ -10,7 +10,7 @@
 
 
 /* Intro section */
-.common-intro-main{padding: 128px 0 115px 0;}
+.common-intro-main{padding: 128px 0 80px 0;}
 .common-intro-text h2{color: var(--heading); font-weight: normal;margin-bottom: 40px;}
 
 /* hr section */
@@ -18,7 +18,7 @@
 
 /* Esg policy section */
 .esg-policy-section{background-color: #f3f8fe;}
-.esg-policy-main{padding: 90px 0;}
+.esg-policy-main{padding: 90px 0 0;}
 .esg-policy-title h2{font-size: 1.37rem; letter-spacing: -0.37px; color: var(--heading); margin-bottom: 50px;}
 .esg-policy-list{margin-bottom: 52px;}
 .esg-policy-icon{background-color: var(--white); color: var(--heading); width: 48px; height: 47px; transition: all 0.3s ease-in-out;}
@@ -39,7 +39,7 @@
    .common-intro-main{gap: 85px;}
    .common-intro-text{flex: 0 0 538px;}
    .common-intro-desc{flex: 0 0 calc(100% - 623px);}
-   .esg-policy-row{gap: 50px;}
+   .esg-policy-row{gap:0 50px;}
    .esg-policy-list{gap: 20px; flex: 0 0 calc(25% - 38px);}
    .esg-policy-text{flex: 0 0 calc(100% - 68px);}
 }
@@ -50,7 +50,7 @@
    .common-intro-desc{flex: 0 0 calc(100% - 545px);}
    .esg-policy-main{padding: 75px 0 35px;}
    .esg-policy-row{gap: 20px;}
-   .esg-policy-list{gap: 20px; flex: 0 0 calc(33.333% - 18px); margin-bottom: 30px;}
+   .esg-policy-list{gap: 20px; flex: 0 0 calc(33.333% - 18px);}
    .esg-policy-text{flex: 0 0 calc(100% - 68px);}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
