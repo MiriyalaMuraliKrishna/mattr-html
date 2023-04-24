@@ -1,29 +1,50 @@
 /* Banner section */
-    .hero-banner-txt .optional-text{color: #8fd5df;}
-    .global-loc-circles{
-        height: 100%;
-        width: 100%;
-        max-width: 495px;
-    }   
-    .global-loc-circle{position: absolute; border: 3px solid var(--small); border-radius: 50%;   content: "";
-        height: 100%;
-        display: block;
-        position: absolute;
-        
-      }
+.global-loc-banner-section{
+	clear: both;
+	width: 100%;
+	z-index: 1;
+	padding: 131px 0 0 0;
+	background-color: #003a70;
+}
+    .global-loc-banner-txt .optional-text{color: #8fd5df;}
+    .global-loc-banner-txt h1{color: var(--white); margin-bottom: 27px;}
+    .global-loc-circles{ height: 100%; width: 100%; max-width: 515px; }   
+    .global-loc-circle{position: absolute; border: 3px solid var(--small); border-radius: 50%;   content: ""; height: 100%; display: block; position: absolute; }
     .global-circle-img img{border-radius: 50%; }
     .loc-circle-1{width: 206px; height: 204px; top: 0; left: 0; padding: 15px;}
-    .loc-circle-1::after{border: 3px solid var(--small) ;
-        left: 99%;
-        transform: rotate(15deg);
-        transform-origin: top left;
-        top: 90px;}
     .loc-circle-2{width: 168px; height: 166px; top: 144px; right: 0; padding: 12px;}
     .loc-circle-3{width: 168px; height: 166px; top: 277px; left: 0; padding: 12px;}
     .loc-circle-4{width: 214px; height: 212px; top: 387px; right: 0; padding: 17px;}
+    .global-loc-circle::after{
+        content: "";
+        background: var(--small);
+        position: absolute;
 
-
-
+    }
+    .loc-circle-1::after {
+        left: 270px;
+        top: -5px;
+        width: 3px;
+        height: 166px;
+        transform: translateY(50%) rotate(-72deg);
+        transform-origin: center right;
+    }
+    .loc-circle-2::after {
+        left: -190px;
+        top: -125px;
+        width: 3px;
+        height: 210px;
+        transform: translateY(50%) rotate(70deg);
+        transform-origin: bottom left;
+    }
+    .loc-circle-3::after {
+        left: 298px;
+        top: -57px;
+        width: 3px;
+        height: 170px;
+        transform: translateY(50%) rotate(-65deg);
+        transform-origin: bottom right;
+    }
 
 /* Global location section */
     .global-location-section{border-bottom: 2px solid rgba(0, 58, 85, 0.13);}
@@ -43,9 +64,8 @@
     
 /*-- media starts here --*/
 @media only screen and (min-width: 1024px){
-    .default-banner-section .hero-banner-main{padding: 30px 0; align-items: flex-start;}
-    .hero-banner-main{gap: 141px;}
-    .default-banner-section .hero-banner-main .hero-banner-txt{flex: 0 0 420px; padding-top: 100px;}
+    .global-loc-banner-main{gap: 141px; padding: 24px 0 160px; min-height: 473px;}
+    .global-loc-banner-txt{flex: 0 0 420px; padding-top: 122px;}
     .global-location-right{flex: 0 0 calc(100% - 561px); height: 100%;}
     .global-location-row{gap: 50px;}
     .global-location-col{flex: 0 0 calc(20% - 50px);}
