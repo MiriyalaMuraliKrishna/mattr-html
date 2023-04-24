@@ -1,20 +1,71 @@
 /* Banner section */
-.hero-banner-txt .optional-text{color: #8fd5df;}
+    .hero-banner-txt .optional-text{color: #8fd5df;}
+    .global-loc-circles{
+        height: 100%;
+        width: 100%;
+        max-width: 495px;
+    }   
+    .global-loc-circle{position: absolute; border: 3px solid var(--small); border-radius: 50%;   content: "";
+        height: 100%;
+        display: block;
+        position: absolute;
+        
+      }
+    .global-circle-img img{border-radius: 50%; }
+    .loc-circle-1{width: 206px; height: 204px; top: 0; left: 0; padding: 15px;}
+    .loc-circle-1::after{border: 3px solid var(--small) ;
+        left: 99%;
+        transform: rotate(15deg);
+        transform-origin: top left;
+        top: 90px;}
+    .loc-circle-2{width: 168px; height: 166px; top: 144px; right: 0; padding: 12px;}
+    .loc-circle-3{width: 168px; height: 166px; top: 277px; left: 0; padding: 12px;}
+    .loc-circle-4{width: 214px; height: 212px; top: 387px; right: 0; padding: 17px;}
+
+
+
+
 /* Global location section */
-.container-xmd{max-width: 1122px; margin:0 auto; width:100%;}
-.global-location-wrap{padding: 50px 0 90px;}
-.loc-accordion-head{ position: relative; padding: 43px 0 45px; font-size: 1.375rem; letter-spacing: -0.37px; font-weight: bold; color: var(--anchor-hover); border-top: 2px solid rgba(0, 58, 85, 0.13); cursor: pointer;}
-.loc-accordion-head::after{content: "\f063";   right: 0px; top: 50%; font-family: 'Font Awesome 6 Pro'; font-weight: 600; font-size: 16px; display: inline-block;line-height: 0; margin: auto; position: absolute; }
-.loc-accordion-head.open::after{content: "\f062";}
-.loc-accordion-list:first-child .loc-accordion-head{border-top: none;} 
-.global-location-col{font-size: 0.875rem; font-weight: 300; letter-spacing: -0.41px; color: var(--body-text);}
-.global-location-col span{display:block; font-size: 1.125rem; letter-spacing: -0.3px; font-weight: 600; line-height: normal; color: var(--anchor-hover); margin-bottom: 25px;}
-.loc-accordion-content{display: none;}
+    .global-location-section{border-bottom: 2px solid rgba(0, 58, 85, 0.13);}
+    .container-xmd{max-width: 1122px; margin:0 auto; width:100%;}
+    .global-location-wrap{padding: 50px 0 84px;}
+    .loc-accordion-head{ position: relative; padding: 43px 0 45px; font-size: 1.375rem; letter-spacing: -0.37px; font-weight: bold; color: var(--anchor-hover); border-top: 2px solid rgba(0, 58, 85, 0.13); cursor: pointer;}
+    .loc-accordion-head::after{content: "\f063";   right: 0px; top: 50%; font-family: 'Font Awesome 6 Pro'; font-weight: 600; font-size: 16px; display: inline-block;line-height: 0; margin: auto; position: absolute; }
+    .loc-accordion-head.open::after{content: "\f062";}
+    .loc-accordion-list:first-child .loc-accordion-head{border-top: none;} 
+    .global-location-col{font-size: 0.875rem; font-weight: 300; letter-spacing: -0.41px; color: var(--body-text);}
+    .global-location-col span{display:block; font-size: 1.125rem; letter-spacing: -0.3px; font-weight: 600; line-height: normal; color: var(--anchor-hover); margin-bottom: 25px;}
+    .global-location-col p{font-size: 0.875rem; line-height: 1.5rem; letter-spacing: -0.41px; color: var(--body-text);} 
+    .global-location-number a{display:block; color:  var(--body-text);}
+    .loc-accordion-content{display: none; padding-bottom: 60px;}
+     
+    
     
 /*-- media starts here --*/
 @media only screen and (min-width: 1024px){
-
+    .default-banner-section .hero-banner-main{padding: 30px 0; align-items: flex-start;}
+    .hero-banner-main{gap: 141px;}
+    .default-banner-section .hero-banner-main .hero-banner-txt{flex: 0 0 420px; padding-top: 100px;}
+    .global-location-right{flex: 0 0 calc(100% - 561px); height: 100%;}
     .global-location-row{gap: 50px;}
     .global-location-col{flex: 0 0 calc(20% - 50px);}
+
+}
+@media only screen and (max-width: 1299px) and (min-width: 1024px){
+
+    .global-location-row{gap: 33px;}
+    .global-location-col{flex: 0 0 calc(25% - 25px);}
+
+}
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+
+    .global-location-row{gap: 20px;}
+    .global-location-col{flex: 0 0 calc(33.333% - 14px);}
+
+}
+@media only screen and (max-width: 767px) and (min-width: 200px){
+    .global-location-wrap{padding: 50px 0 70px;}
+    .global-location-row{display: block;}
+    .global-location-col{padding-bottom: 40px;}
 
 }
