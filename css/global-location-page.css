@@ -1,11 +1,5 @@
 /* Banner section */
-.global-loc-banner-section{
-	clear: both;
-	width: 100%;
-	z-index: 1;
-	padding: 131px 0 0 0;
-	background-color: #003a70;
-}
+    .global-loc-banner-section{clear: both; width: 100%; z-index: 1; padding: 131px 0 0 0; background-color: #003a70;}
     .global-loc-banner-txt .optional-text{color: #8fd5df;}
     .global-loc-banner-txt h1{color: var(--white); margin-bottom: 27px;}
     .global-loc-circles{ height: 100%; width: 100%; max-width: 515px; }   
@@ -15,36 +9,10 @@
     .loc-circle-2{width: 168px; height: 166px; top: 144px; right: 0; padding: 12px;}
     .loc-circle-3{width: 168px; height: 166px; top: 277px; left: 0; padding: 12px;}
     .loc-circle-4{width: 214px; height: 212px; top: 387px; right: 0; padding: 17px;}
-    .global-loc-circle::after{
-        content: "";
-        background: var(--small);
-        position: absolute;
-
-    }
-    .loc-circle-1::after {
-        left: 270px;
-        top: -5px;
-        width: 3px;
-        height: 166px;
-        transform: translateY(50%) rotate(-72deg);
-        transform-origin: center right;
-    }
-    .loc-circle-2::after {
-        left: -190px;
-        top: -125px;
-        width: 3px;
-        height: 210px;
-        transform: translateY(50%) rotate(70deg);
-        transform-origin: bottom left;
-    }
-    .loc-circle-3::after {
-        left: 298px;
-        top: -57px;
-        width: 3px;
-        height: 170px;
-        transform: translateY(50%) rotate(-65deg);
-        transform-origin: bottom right;
-    }
+    .global-loc-circle::after{content: ""; background: var(--small); position: absolute;}
+    .loc-circle-1::after{left: 270px; top: -5px; width: 3px; height: 166px; transform: translateY(50%) rotate(-72deg); transform-origin: center right;}
+    .loc-circle-2::after{left: -190px; top: -125px; width: 3px; height: 210px; transform: translateY(50%) rotate(70deg); transform-origin: bottom left;}
+    .loc-circle-3::after {left: 298px; top: -57px; width: 3px; height: 170px; transform: translateY(50%) rotate(-65deg); transform-origin: bottom right;}
 
 /* Global location section */
     .global-location-section{border-bottom: 2px solid rgba(0, 58, 85, 0.13);}
@@ -60,8 +28,6 @@
     .global-location-number a{display:block; color:  var(--body-text);}
     .loc-accordion-content{display: none; padding-bottom: 60px;}
      
-    
-    
 /*-- media starts here --*/
 @media only screen and (min-width: 1024px){
     .global-loc-banner-main{gap: 141px; padding: 24px 0 160px; min-height: 473px;}
@@ -72,18 +38,32 @@
 
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
-
     .global-location-row{gap: 33px;}
     .global-location-col{flex: 0 0 calc(25% - 25px);}
 
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
-
+    .global-loc-banner-section{padding-top: 90px;}
+    .global-loc-banner-main{display: block; padding: 73px 0 550px; min-height: 473px;}
+    .global-loc-banner-txt{padding-bottom: 50px;}
+    .global-location-right{height: 100%;}
     .global-location-row{gap: 20px;}
     .global-location-col{flex: 0 0 calc(33.333% - 14px);}
 
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
+    .global-loc-banner-section{padding-top: 90px;}
+    .global-loc-banner-main{display: block; padding: 73px 0 310px; min-height: 473px;}
+    .global-loc-banner-txt{padding-bottom: 50px;}
+
+    .loc-circle-1{width: 130px; height: 130px; top: 0; left: 21px; padding: 10px;}
+    .loc-circle-2{width: 104px; height: 104px; top: 85px; right: 35px; padding: 7px;}
+    .loc-circle-3{width: 104px; height: 104px; top: 171px; left: 30px; padding: 7px;}
+    .loc-circle-4{width: 132px; height: 131px; top: 238px; right: 21px; padding: 10px;}
+    .loc-circle-1::after {left: 169px; top: -5px; width: 3px; height: 100px; transform: translateY(50%) rotate(-72deg); transform-origin: center right;}
+    .loc-circle-2::after {left: -110px; top: -68px; width: 3px; height: 120px; transform: translateY(50%) rotate(70deg); transform-origin: bottom left;}
+    .loc-circle-3::after {left: 187px; top: -43px; width: 3px; height: 104px; transform: translateY(50%) rotate(-71deg);transform-origin: bottom right;}
+
     .global-location-wrap{padding: 50px 0 70px;}
     .global-location-row{display: block;}
     .global-location-col{padding-bottom: 40px;}

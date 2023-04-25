@@ -1,0 +1,12 @@
+.common-intro-text{text-align: right; padding: 99px 170px 0 0;}
+.common-intro-text span{display: block; font-weight: bold; color: #61b0bc; font-size: 1.375rem; letter-spacing: -0.37px; margin-bottom: 26px;}
+.common-intro-text h2{font-weight: 300; color: #003a70; font-size: 2.688rem; letter-spacing: -0.72px; margin-bottom: 38px;}
+.common-intro-image img{clip-path: polygon(0 0, 100% 0, 54% 100%, 0% 100%);}
+
+@media only screen and (min-width: 1024px){
+    
+    .common-intro-main{gap: 64px;}
+    .common-intro-image{flex: 0 0 582px;}
+    .common-intro-text{flex: 0 0 calc(100% - 646px); max-width: 945px; margin-left: auto;}
+       
+  }

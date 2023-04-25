@@ -1,0 +1,74 @@
+@import url("./_cta-panel-section.css");
+
+/* Banner */
+.default-banner-section .hero-banner-main .hero-banner-image .banner-img img{clip-path: none;}
+
+/* Brand section */
+.brand-wrap{padding: 75px 0;}
+.brand-title h4{color: var(--small);}
+.brand-title ul{margin: 26px 0 0;}
+.brand-title ul > li::before{display: none;}
+.brand-title ul > li{font-size: 1.063rem; font-weight: 600; letter-spacing: -0.66px; margin-bottom: 18px;}
+.brand-title ul > li a{color: var(--anchor-hover);}
+.brand-title ul > li a:hover{color: var(--anchor);}
+
+.brand-list:last-child{margin-bottom: 0;}
+.brand-heading{border-bottom: solid 1px rgba(0, 58, 85, 0.13); margin-bottom: 50px;}
+.brand-heading img{margin-bottom: 22px;}
+.brand-people-img{clip-path: polygon(0 0, 100% 0, 100% 100%, 0 92%); margin-bottom: 20px;}
+.brand-people-name{margin-bottom: 10px;}
+.brand-people-name h6{line-height: normal; margin-bottom: 0; letter-spacing: -0.27px;; font-weight: 600;}
+.brand-people-name span{line-height: 2.08; letter-spacing: 0.75px; font-weight: 600; font-size: 0.75rem; color: #73a3cf; text-transform: uppercase;margin-top: -2px; display: block;}
+.brand-people-phone{margin-bottom: 18px;}
+.brand-people-phone a{font-size: 0.875rem; font-weight: 300; line-height: 1.71; letter-spacing: -0.41px; display: block; color: var(--body-tex);}
+.brand-people-phone a:hover{color: var(--anchor-hover);}
+.brand-people-address{font-size: 0.875rem; font-weight: 300; line-height: 1.71; letter-spacing: -0.41px;}
+.brand-people-address span{font-weight: bold;}
+
+
+@media screen and (min-width:1024px) {
+    .banner-bg{top: 21px; left: 533px;}
+    .banner-bg figure{width: 1363px;}
+
+    .default-banner-section .hero-banner-main .hero-banner-image .banner-img{position: absolute; left: 0; height: 100%; width: 100%; display: inline-flex; max-width: 100%; top: auto; right: auto; align-items: normal;}
+    .default-banner-section.left-two-image .hero-banner-main .hero-banner-txt{padding: 40px 17px 20px 0;}
+
+    .brand-main{max-width: 1244px;}
+    .brand-title{width: 200px; margin: 8px 151px 0 0;}
+    .brand-content{width: calc(100% - 351px);}
+    .brand-list{margin-bottom: 78px;}
+    .brand-people-main{gap: 50px;}
+    .brand-people-list{width: 20.8%;}
+}
+
+
+@media screen and (max-width:1299px) and (min-width:1024px) {
+    .brand-title{margin: 8px 30px 0 0;}
+    .brand-content{width: calc(100% - 230px);}
+    .brand-people-main{gap: 42px;}
+    
+}
+
+@media screen and (max-width:1023px) and (min-width:768px) {
+    .default-banner-section .hero-banner-main .hero-banner-image .banner-img{position: absolute; left: 0; height: 100%; width: 100%; display: inline-flex; max-width: 100%; top: auto; right: auto; align-items: normal;}
+    .default-banner-section .hero-banner-main{min-height: 316px; align-items: normal; padding: 100px 0 0; flex-direction: row-reverse}
+
+    .brand-people-main{gap: 43px;}
+    .brand-people-list{width: 47%;}
+    .brand-list{margin-bottom: 50px;}
+
+}
+
+@media screen and (max-width:767px) and (min-width:200px) {
+    .brand-wrap{padding: 117px 0 69px;}
+    .brand-list{margin-bottom: 70px;}
+    .brand-title{position: relative; width: 100%; border-bottom: solid 3px rgba(136, 157, 180, 0.2); margin-bottom: 60px;}
+    .brand-title::before{content: "\f107"; position: absolute; font-family: "Font Awesome 6 Pro"; font-size: 20px; top: 0px; right: 20px; color: #61b0bc; font-weight: 400;}
+    .brand-title h4{margin-bottom: 27px; cursor: pointer;}
+    .brand-heading{margin-bottom: 32px;}
+    .brand-heading h3{font-size: 1.563rem; letter-spacing: -0.42px; margin-bottom: 15px;}
+    .brand-people-list{display: flex; align-items: flex-start; border-bottom: solid 1px rgba(0, 58, 85, 0.13); padding-bottom: 29px; margin-bottom: 33px;}
+    .brand-people-list:last-child{margin-bottom: 0px;}
+    .brand-people-img{width: 125px; margin-right: 30px;}
+    .brand-people-content{width: calc(100% - 155px);}
+}

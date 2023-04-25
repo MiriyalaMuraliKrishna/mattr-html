@@ -16,19 +16,20 @@
 <link rel="stylesheet" type="text/css" href="style.css" media="all"/>
 <link rel="stylesheet" type="text/css" href="css/careers-default.css" media="all"/>
 </head>
-<body class="page-template-careers-default white_header">
-<div class="map-bg">
-  <picture>
-    <source srcset="images/career-bg@2x.jpg" media="(min-width: 768px)">
-    <img src="images/career-bg@2x.jpg" alt="career-map-mobile"> </picture>
-</div>
+<body class="page-template-careers-default">
+
 <div id="main">
+	<div class="map-bg">
+  <figure>   
+    <img src="images/map-bg.svg" alt="map-background"> </figure>
+</div>
   <header id="main_header" class="main_header">
     <div class="container-lg">
       <div class="header flex">
         <div class="logo"> <span class="logo-pos normal-logo"> <a href="index.html"><img src="images/logo.svg" alt="Mattr Infrastructure Technologies Logo"></a> </span> <span class="logo-pos fixed-logo"> <a href="index.html"><img src="images/logo-sticky.svg" alt="Mattr Infrastructure Technologies Logo"></a> </span> </div>
-        <div class="toggle_button flex flex-center"> <a href="javascript:void();"> <span class="line line1"></span> <span class="line line2"></span> <span class="line line3"></span> </a> </div>
+        <div class="menu-icon flex flex-center"> <a class="menu_icon" href="javascript:void();"> <span class="line line1"></span> <span class="line line2"></span> <span class="line line3"></span> </a> </div>
         <div class="header_right mobile_menu flex">
+			<div class="header-map hide-in-desktop"><img src="images/menu-bg.svg" alt="Menu Map"/></div>
           <div class="header-top">
             <div class="top-nav">
               <ul>
@@ -49,22 +50,35 @@
             <nav class="navigation mobile_menu">
               <ul class="main_menu">
                 <li class="menu-item-has-children" id="menu-item-45"> <a href="#">Company</a>
-                  <ul class="sub-menu">
-                    <li><a href="#">Motor Vehicle Accidents</a></li>
-                    <li><a href="#">Motorcycle Accidents</a></li>
-                    <li><a href="#">Bicycle Accidents</a></li>
-                    <li><a href="#">Pedestrain Accidents</a></li>
-                    <li><a href="#">Long Term Disability</a></li>
-                    <li><a href="#">Canada Pensio Plan Disability</a></li>
-                    <li><a href="#">Slip and Fall Accidents</a></li>
-                    <li><a href="#">Product Liability</a></li>
-                    <li><a href="#">Personal Injury</a></li>
-                    <li><a href="#">Civil Claims for Sexual Assault</a></li>
-                    <li><a href="#">Fatal Accidents/Wrongful Death</a></li>
-                    <li><a href="#">Class Action/Mass Torts</a></li>
+				  <ul class="sub-menu">
+									<li><a href="#">Markets</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Investors</a></li>
+                <li><a href="#">Contact</a></li>
+								</ul>
+				  </li>
+                <li class="menu-item-has-children flex-menu" id="menu-item-46"><a href="#">Brand &amp; Technologies</a> 
+				  <ul class="sub-menu">
+                    <li>
+						<div class="nav-logo"><a href="#"><img src="images/xerxes-logo.svg" alt="XERXES"/></a></div>
+						<span>Hydrochain Stormwater Solutions</span>
+					  <a href="#" class="txt-btn"> <span class="icon arrow"></span> <span class="button-text">Learn More</span></a>
+					  </li>
+                    <li><div class="nav-logo"><a href="#"><img src="images/shawflex-logo.svg" alt="SHAWWFLEX"/></a></div>
+						<span>Engineered custom-specified wire
+and cable products.</span>
+					  <a href="#" class="txt-btn"> <span class="icon arrow"></span> <span class="button-text">Learn More</span></a></li>
+                    <li><div class="nav-logo"><a href="#"><img src="images/DSG-canusa-logo.svg" alt="DSG-CANUSA"/></a></div>
+						<span>Integrated heat-shrink
+and cold-shrink tubing.</span>
+					  <a href="#" class="txt-btn"> <span class="icon arrow"></span> <span class="button-text">Learn More</span></a></li>
+					  <li><div class="nav-logo"><a href="#"><img src="images/flexpipe-logo.svg" alt="FLEXPIPE"/></a></div>
+						<span>Engineered custom-specified wire
+and cable products.</span>
+					  <a href="#" class="txt-btn"> <span class="icon arrow"></span> <span class="button-text">Learn More</span></a></li>
+                   
                   </ul>
-                </li>
-                <li class="menu-item-has-children" id="menu-item-46"><a href="#">Brand &amp; Technologies</a> </li>
+				  </li>
                 <li><a href="#">Markets</a></li>
                 <li><a href="#">Careers</a></li>
                 <li><a href="#">Investors</a></li>
@@ -78,13 +92,13 @@
   </header>
   <!-- end of main header -->
   <main id="mainContent">
-	<section class="default-banner-section pos-relative">
-	  <div class="container">
-		  <div class="hero-banner-main flex">
-		  <div class="hero-banner-txt">
-			  <small>Want to join us?</small>
-          <h1>Careers Category</h1>
-			   <div class="join-form">           
+    <section class="default-banner-section pos-relative">
+		<div class="container-lg">
+      <div class="container">
+        <div class="hero-banner-main flex">
+          <div class="hero-banner-txt"> <span class="optional-text">Want to join us?</span>
+            <h1>Careers Category</h1>
+            <div class="join-form">
               <form action="" class="" method="post">
                 <div class="form-field">
                   <input type="search" id="" name="search" value="" placeholder="Search by name..." data-reqmsg="" aria-required="true" data-invmsg="" autocomplete="off">
@@ -101,40 +115,44 @@
                 </div>
               </form>
             </div>
-         
-          <!--end of join form --> 
-			  </div><!-- end of hero banner txt -->
-		  <div class="hero-banner-image">
-			  <div class="banner-img">
-			  <picture class="object-fit">
-                    <source srcset="images/career-post-banner@2x.jpg" media="(min-width: 1024px)">
-                    <source srcset="images/career-post-banner@2x.jpg" media="(min-width: 768px)">
-                    <img src="images/career-post-banner-mobile@2x.jpg" alt="Career Default Banner">
-                </picture>
-				  </div>
-			  </div><!-- end of hero banner image -->
-		  </div><!-- end of hero banner main -->
-		  </div>
-	  </section><!-- end of default banner section -->
-	  
+            
+            <!--end of join form --> 
+          </div>
+          <!-- end of hero banner txt -->
+          <div class="hero-banner-image">
+            <div class="banner-img">
+              <picture class="object-fit">
+                <source srcset="images/career-post-banner@2x.jpg" media="(min-width: 1024px)">
+                <source srcset="images/career-post-banner@2x.jpg" media="(min-width: 768px)">
+                <img src="images/career-post-banner-mobile@2x.jpg" alt="Career Default Banner"> </picture>
+            </div>
+          </div>
+          <!-- end of hero banner image --> 
+        </div>
+        <!-- end of hero banner main --> 
+      </div>
+			</div>
+    </section>
+    <!-- end of default banner section -->
+    
     <section class="career-opportunites-main">
       <div class="container">
-		  <div class="alert-main flex">
-		  <span class="pages">Showing 1 to 12 of 12 Jobs</span>
-			<div class="alert_form">
-			  <form class="alert-form flex">
-				
-				  <label for="alert">Select how often (in days) to receive an alert:</label>					
-				  <div class="form-field">
-				  <div class="alert">
-					<input type="number" id="alert" name="alert" min="1" max="5">
-						</div>
-				  <div class="frm_submit">
+        <div class="alert-main flex"> <span class="pages">Showing 1 to 12 of 12 Jobs</span>
+          <div class="alert_form">
+            <form class="alert-form flex">
+              <label for="alert">Select how often (in days) to receive an alert:</label>
+              <div class="form-field">
+                <div class="alert">
+                  <input type="number" id="alert" name="alert" min="1" max="5" value="1">
+                </div>
+                <div class="frm_submit">
                   <button class="frm_button_submit" type="submit" formnovalidate="">Create an Alert</button>
-                </div></div>
-				</form>
-			  </div>  
-		  </div><!-- end of alert main -->
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <!-- end of alert main -->
         <div class="carrer-opportunites">
           <div class="career-single flex">
             <div class="career-left">
@@ -144,8 +162,8 @@
                   <div class="info-title">LOCATION</div>
                   <div class="info-details">Toronto, ON, CA  M5M 5M5</div>
                 </div>
-                <!-- end of career info grid --> 
-				   <div class="career-info-grid">
+                <!-- end of career info grid -->
+                <div class="career-info-grid">
                   <div class="info-title">MULTILOCATION</div>
                   <div class="info-details">Toronto, ON, CA  M5M 5M5<span>.</span>NC, US<span>.</span>SC, US<span>.</span>TX, US</div>
                 </div>
@@ -154,139 +172,143 @@
               <!-- end of career info --> 
             </div>
             <!-- end of carrer left -->
-            <div class="career-right"> <div class="career-btn"><a href="#" class="button">More</a> </div></div>
+            <div class="career-right">
+              <div class="career-btn"><a href="#" class="button">More</a> </div>
+            </div>
+            <!-- end of career right --> 
+          </div>
+          <!-- end of career single -->
+          <div class="career-single flex">
+            <div class="career-left">
+              <h4><a href="#">Sample Career Opportunity Title</a></h4>
+              <div class="career-info flex">
+                <div class="career-info-grid">
+                  <div class="info-title">LOCATION</div>
+                  <div class="info-details">Toronto, ON, CA  M5M 5M5</div>
+                </div>
+                <!-- end of career info grid -->
+                <div class="career-info-grid">
+                  <div class="info-title">MULTILOCATION</div>
+                  <div class="info-details">Toronto, ON, CA  M5M 5M5<span>.</span>NC, US<span>.</span>SC, US<span>.</span>TX, US</div>
+                </div>
+                <!-- end of career info grid --> 
+              </div>
+              <!-- end of career info --> 
+            </div>
+            <!-- end of carrer left -->
+            <div class="career-right">
+              <div class="career-btn"><a href="#" class="button">More</a> </div>
+            </div>
+            <!-- end of career right --> 
+          </div>
+          <!-- end of career single -->
+          <div class="career-single flex">
+            <div class="career-left">
+              <h4><a href="#">Sample Career Opportunity Title</a></h4>
+              <div class="career-info flex">
+                <div class="career-info-grid">
+                  <div class="info-title">LOCATION</div>
+                  <div class="info-details">Toronto, ON, CA  M5M 5M5</div>
+                </div>
+                <!-- end of career info grid -->
+                <div class="career-info-grid">
+                  <div class="info-title">MULTILOCATION</div>
+                  <div class="info-details">Toronto, ON, CA  M5M 5M5<span>.</span>NC, US<span>.</span>SC, US<span>.</span>TX, US</div>
+                </div>
+                <!-- end of career info grid --> 
+              </div>
+              <!-- end of career info --> 
+            </div>
+            <!-- end of carrer left -->
+            <div class="career-right">
+              <div class="career-btn"><a href="#" class="button">More</a> </div>
+            </div>
+            <!-- end of career right --> 
+          </div>
+          <!-- end of career single -->
+          <div class="career-single flex">
+            <div class="career-left">
+              <h4><a href="#">Sample Career Opportunity Title</a></h4>
+              <div class="career-info flex">
+                <div class="career-info-grid">
+                  <div class="info-title">LOCATION</div>
+                  <div class="info-details">Toronto, ON, CA  M5M 5M5</div>
+                </div>
+                <!-- end of career info grid -->
+                <div class="career-info-grid">
+                  <div class="info-title">MULTILOCATION</div>
+                  <div class="info-details">Toronto, ON, CA  M5M 5M5<span>.</span>NC, US<span>.</span>SC, US<span>.</span>TX, US</div>
+                </div>
+                <!-- end of career info grid --> 
+              </div>
+              <!-- end of career info --> 
+            </div>
+            <!-- end of carrer left -->
+            <div class="career-right">
+              <div class="career-btn"><a href="#" class="button">More</a> </div>
+            </div>
+            <!-- end of career right --> 
+          </div>
+          <!-- end of career single -->
+          <div class="career-single flex">
+            <div class="career-left">
+              <h4><a href="#">Sample Career Opportunity Title</a></h4>
+              <div class="career-info flex">
+                <div class="career-info-grid">
+                  <div class="info-title">LOCATION</div>
+                  <div class="info-details">Toronto, ON, CA  M5M 5M5</div>
+                </div>
+                <!-- end of career info grid -->
+                <div class="career-info-grid">
+                  <div class="info-title">MULTILOCATION</div>
+                  <div class="info-details">Toronto, ON, CA  M5M 5M5<span>.</span>NC, US<span>.</span>SC, US<span>.</span>TX, US</div>
+                </div>
+                <!-- end of career info grid --> 
+              </div>
+              <!-- end of career info --> 
+            </div>
+            <!-- end of carrer left -->
+            <div class="career-right">
+              <div class="career-btn"><a href="#" class="button">More</a> </div>
+            </div>
+            <!-- end of career right --> 
+          </div>
+          <!-- end of career single -->
+          <div class="career-single flex">
+            <div class="career-left">
+              <h4><a href="#">Sample Career Opportunity Title</a></h4>
+              <div class="career-info flex">
+                <div class="career-info-grid">
+                  <div class="info-title">LOCATION</div>
+                  <div class="info-details">Toronto, ON, CA  M5M 5M5</div>
+                </div>
+                <!-- end of career info grid -->
+                <div class="career-info-grid">
+                  <div class="info-title">MULTILOCATION</div>
+                  <div class="info-details">Toronto, ON, CA  M5M 5M5<span>.</span>NC, US<span>.</span>SC, US<span>.</span>TX, US</div>
+                </div>
+                <!-- end of career info grid --> 
+              </div>
+              <!-- end of career info --> 
+            </div>
+            <!-- end of carrer left -->
+            <div class="career-right">
+              <div class="career-btn"><a href="#" class="button">More</a> </div>
+            </div>
             <!-- end of career right --> 
           </div>
           <!-- end of career single --> 
-			          <div class="career-single flex">
-            <div class="career-left">
-              <h4><a href="#">Sample Career Opportunity Title</a></h4>
-              <div class="career-info flex">
-                <div class="career-info-grid">
-                  <div class="info-title">LOCATION</div>
-                  <div class="info-details">Toronto, ON, CA  M5M 5M5</div>
-                </div>
-                <!-- end of career info grid --> 
-				   <div class="career-info-grid">
-                  <div class="info-title">MULTILOCATION</div>
-                  <div class="info-details">Toronto, ON, CA  M5M 5M5<span>.</span>NC, US<span>.</span>SC, US<span>.</span>TX, US</div>
-                </div>
-                <!-- end of career info grid --> 
-              </div>
-              <!-- end of career info --> 
-            </div>
-            <!-- end of carrer left -->
-            <div class="career-right"> <div class="career-btn"><a href="#" class="button">More</a> </div></div>
-            <!-- end of career right --> 
-          </div>
-          <!-- end of career single -->
-			          <div class="career-single flex">
-            <div class="career-left">
-              <h4><a href="#">Sample Career Opportunity Title</a></h4>
-              <div class="career-info flex">
-                <div class="career-info-grid">
-                  <div class="info-title">LOCATION</div>
-                  <div class="info-details">Toronto, ON, CA  M5M 5M5</div>
-                </div>
-                <!-- end of career info grid --> 
-				   <div class="career-info-grid">
-                  <div class="info-title">MULTILOCATION</div>
-                  <div class="info-details">Toronto, ON, CA  M5M 5M5<span>.</span>NC, US<span>.</span>SC, US<span>.</span>TX, US</div>
-                </div>
-                <!-- end of career info grid --> 
-              </div>
-              <!-- end of career info --> 
-            </div>
-            <!-- end of carrer left -->
-            <div class="career-right"> <div class="career-btn"><a href="#" class="button">More</a> </div></div>
-            <!-- end of career right --> 
-          </div>
-          <!-- end of career single -->
-			          <div class="career-single flex">
-            <div class="career-left">
-              <h4><a href="#">Sample Career Opportunity Title</a></h4>
-              <div class="career-info flex">
-                <div class="career-info-grid">
-                  <div class="info-title">LOCATION</div>
-                  <div class="info-details">Toronto, ON, CA  M5M 5M5</div>
-                </div>
-                <!-- end of career info grid --> 
-				   <div class="career-info-grid">
-                  <div class="info-title">MULTILOCATION</div>
-                  <div class="info-details">Toronto, ON, CA  M5M 5M5<span>.</span>NC, US<span>.</span>SC, US<span>.</span>TX, US</div>
-                </div>
-                <!-- end of career info grid --> 
-              </div>
-              <!-- end of career info --> 
-            </div>
-            <!-- end of carrer left -->
-            <div class="career-right"> <div class="career-btn"><a href="#" class="button">More</a> </div></div>
-            <!-- end of career right --> 
-          </div>
-          <!-- end of career single -->
-			          <div class="career-single flex">
-            <div class="career-left">
-              <h4><a href="#">Sample Career Opportunity Title</a></h4>
-              <div class="career-info flex">
-                <div class="career-info-grid">
-                  <div class="info-title">LOCATION</div>
-                  <div class="info-details">Toronto, ON, CA  M5M 5M5</div>
-                </div>
-                <!-- end of career info grid --> 
-				   <div class="career-info-grid">
-                  <div class="info-title">MULTILOCATION</div>
-                  <div class="info-details">Toronto, ON, CA  M5M 5M5<span>.</span>NC, US<span>.</span>SC, US<span>.</span>TX, US</div>
-                </div>
-                <!-- end of career info grid --> 
-              </div>
-              <!-- end of career info --> 
-            </div>
-            <!-- end of carrer left -->
-            <div class="career-right"> <div class="career-btn"><a href="#" class="button">More</a> </div></div>
-            <!-- end of career right --> 
-          </div>
-          <!-- end of career single -->
-			          <div class="career-single flex">
-            <div class="career-left">
-              <h4><a href="#">Sample Career Opportunity Title</a></h4>
-              <div class="career-info flex">
-                <div class="career-info-grid">
-                  <div class="info-title">LOCATION</div>
-                  <div class="info-details">Toronto, ON, CA  M5M 5M5</div>
-                </div>
-                <!-- end of career info grid --> 
-				   <div class="career-info-grid">
-                  <div class="info-title">MULTILOCATION</div>
-                  <div class="info-details">Toronto, ON, CA  M5M 5M5<span>.</span>NC, US<span>.</span>SC, US<span>.</span>TX, US</div>
-                </div>
-                <!-- end of career info grid --> 
-              </div>
-              <!-- end of career info --> 
-            </div>
-            <!-- end of carrer left -->
-            <div class="career-right"> <div class="career-btn"><a href="#" class="button">More</a> </div></div>
-            <!-- end of career right --> 
-          </div>
-          <!-- end of career single -->
-			
-			
+          
         </div>
-        <!-- end of career opportunities --> 
-		  <div class="pagination-wrap flex">
-			<nav class="pagination" role="pagination">
-				<div class="pagination-links flex flex-vcenter">
-					<div class="wp-pagenavi" role="navigation">
-						<a class="previouspostslink" rel="prev" aria-label="Previous Page" href="#"><span class="fa-regular fa-angle-right"></span></a>
-						<span class="pages">Page 1 of 2</span>
-						<a class="page larger" title="Page 1" href="#">1</a>
-						<span aria-current="page" class="current">2</span>
-						<a class="page larger" title="Page 2" href="#">3</a>
-						<a class="nextpostslink" rel="next" aria-label="Next Page" href="#"><span class="fa-regular fa-angle-right"></span></a>
-					</div>
-				</div>
-			</nav>
-			
-		</div><!-- end of pagination wrap -->
+        <!-- end of career opportunities -->
+        <div class="pagination-wrap flex">
+          <nav class="pagination" role="pagination">
+            <div class="pagination-links flex flex-vcenter">
+              <div class="wp-pagenavi" role="navigation"> <a class="previouspostslink" rel="prev" aria-label="Previous Page" href="#"><span class="fa-regular fa-angle-right"></span></a> <span class="pages">Page 1 of 2</span> <a class="page larger" title="Page 1" href="#">1</a> <span aria-current="page" class="current">2</span> <a class="page larger" title="Page 2" href="#">3</a> <a class="nextpostslink" rel="next" aria-label="Next Page" href="#"><span class="fa-regular fa-angle-right"></span></a> </div>
+            </div>
+          </nav>
+        </div>
+        <!-- end of pagination wrap --> 
       </div>
     </section>
     <!-- end of career opportunites main --> 
