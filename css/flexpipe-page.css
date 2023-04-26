@@ -15,7 +15,7 @@
     height: 140%;
     bottom: -40px;
     left: 72px;                    
-    clip-path: polygon(101% 0, 116% 0%, 15% 100%, 0% 99%);
+    clip-path: polygon(101% 0, 116% 0%, 15% 100%, 1% 98%);
     content:""; display: block; position: absolute;
      background-color: var(--anchor);
       opacity: 0.4;

@@ -1,14 +1,26 @@
+.common-intro-section{overflow: hidden;}
 .common-intro-text{text-align: right; padding: 99px 170px 0 0;}
 .common-intro-text span{display: block; font-weight: bold; color: #61b0bc; font-size: 1.375rem; letter-spacing: -0.37px; margin-bottom: 26px;}
 .common-intro-text h2{font-weight: 300; color: #003a70; font-size: 2.688rem; letter-spacing: -0.72px; margin-bottom: 38px;}
 .common-intro-image img{clip-path: polygon(0 0, 100% 0, 54% 100%, 0% 100%);}
 .common-intro-image{overflow: hidden;}
-.common-image::after{
+.common-intro-thumb{position: relative;}
+.common-intro-thumb::before{
+  width: 30px;
+  height: 142%;
+  bottom: -15px;
+  right: 0;                  
+  content:""; display: block; position: absolute;
+   background-color: var(--white);
+    z-index: 2;
+    transform: rotate(11deg);
+}
+.common-intro-thumb::after{
     width: 300px;
-    height: 141%;
+    height: 142%;
     bottom: -168px;
-    left: 249px;                    
-    clip-path: polygon(74% 0, 90% 0%, 15% 100%, 0% 100%);
+    right: 30px;                  
+    clip-path: polygon(74% 0, 90% 0%, 15% 100%, 1% 100%);
     content:""; display: block; position: absolute;
      background-color: var(--anchor);
       opacity: 0.4;
