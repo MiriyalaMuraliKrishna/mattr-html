@@ -1,0 +1,23 @@
+@import url("../css/_banner-section.css");
+@import url("../css/_common-intro-section.css");
+@import url("../css/_common-section-mobule.css");
+@import url("../css/_product-common-module.css");
+@import url("../css/_product-catalog-module.css");
+@import url("../css/_cta-panel-section.css");
+
+/* intrudce brand section */
+/* .intruduce-brand-section .container-lg{padding: 0; position: relative;}
+.intrudce-brand-main{justify-content: space-between;}
+.intrudce-brand-content{text-align: right;}
+.intrudce-brand-image img{max-width: 582px; min-width: 582px; clip-path: polygon(0% 0%, 100% 0%, 54% 100%, 0% 100%);}
+.intrudce-brand-thumb{position: absolute; left: 0;}
+.intrudce-brand-thumb::before{content: ""; position: absolute; height: 100%; width: 318px; background-color: rgba(97, 176, 188, 0.6); right: 0; clip-path: polygon(84% 0%, 100% 0%, 16% 100%, 0 100%); transition: all .5s ease; z-index: 1;} */
+
+
+
+@media screen and (min-width: 1024px) {
+    /* .intrudce-brand-image{width: calc(100% - 790px); max-height: 423px; min-height: 423px;}
+    .intrudce-brand-content{width: 790px; margin-top: 86px;}
+    .intrudce-brand-content h2{text-indent: 61px;} */
+
+}

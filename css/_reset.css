@@ -446,6 +446,10 @@ button:hover:after, .button:hover:after {
   background: var(--white);
   color: var(--anchor)
 }
+.btn-white {
+  background-color: var(--white);
+  color: var(--anchor);
+}
 ::-webkit-input-placeholder {
   color: var(--light-blue);
   font-family: 'Montserrat', sans-serif;

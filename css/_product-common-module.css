@@ -1,0 +1,14 @@
+.product-common-section{background-color: var(--light-bluebg);}
+.product-common-wrap{padding: 90px 0 70px;}
+.product-common-heading{max-width: 655px; margin-bottom: 50px;}
+.product-common-heading h2{margin-bottom: 19px;}
+
+.product-common-item{background-color: var(--white);}
+.product-common-thumb img{clip-path: polygon(0 0, 100% 0, 100% 100%, 0 91%); min-height: 255px; max-height: 255px;}
+.product-common-content{padding: 10px 39px 30px 40px;}
+.product-common-content h4{margin-bottom: 9px;}
+
+@media screen and (min-width: 1024px) {
+    .product-common-lists{gap: 3.6%;}
+    .product-common-item{width: 30.9%; margin-bottom: 50px;}
+}
