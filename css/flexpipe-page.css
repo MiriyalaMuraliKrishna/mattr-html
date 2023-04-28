@@ -1,4 +1,4 @@
-@import url("_product-banner-section.css");
+@import url("_banner-section.css");
 @import url("_common-intro-section.css");
 @import url("_features-module.css");
 @import url("_cta-panel-section.css");
@@ -23,6 +23,7 @@
 
 /*-- media starts here --*/
 @media only screen and (min-width: 1024px){
+    .container-lg{padding: 0;}
     .product-specs-row{gap: 50px;}
     .product-specs-list{flex: 0 0 calc(33.333% - 34px);}
     .product-specs-desc p{max-width: 655px;}

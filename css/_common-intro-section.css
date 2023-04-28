@@ -20,7 +20,7 @@
     .common-intro-main{gap: 64px;}
     .common-intro-image{flex: 0 0 582px;}
     .common-intro-text{flex: 0 0 calc(100% - 646px); max-width: 945px; margin-left: auto;}
-    .common-intro-thumb::after{height: 144%; bottom: -50px; right: 107px; transform: rotate(29deg);}
+    .common-intro-thumb::after{height: 144%; bottom: -50px; right: 107px; transform: rotate(29.555deg);}
   }
   @media only screen and (max-width: 1699px) and (min-width: 1300px){
       
@@ -29,7 +29,6 @@
     .common-intro-image{flex: 0 0 582px;}
     .common-intro-text{flex: 0 0 calc(100% - 614px); padding-right: 80px;}
     .common-intro-text h2 br{display: none;}
-    .common-intro-thumb::after{height: 144%; bottom: -50px; right: 103px; transform: rotate(27deg);}
   }
   @media only screen and (max-width: 1299px) and (min-width: 1024px){
       
