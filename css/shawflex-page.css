@@ -5,13 +5,16 @@
 /* markets overview section */
 .markets-overview-section{background: var(--light-bluebg);}
 .markets-overview-main{padding: 90px 0 75px 0;}
+.markets-overview-icon{max-width: 52px;}
 
 
 
-*-- media starts here --*/
+/*-- media starts here --*/
 @media only screen and (min-width: 1024px){
-
-
+  .markets-overview-desc{max-width: 685px;}
+  .markets-overview-row{gap: 50px;}
+  .markets-overview-list{flex: 0 0 calc(33.33% - 50px);
+  
 
 
 }
