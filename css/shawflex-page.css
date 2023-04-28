@@ -1,0 +1,17 @@
+@import url("_product-banner-section.css");
+@import url("_common-intro-section.css");
+
+
+/* markets overview section */
+.markets-overview-section{background: var(--light-bluebg);}
+.markets-overview-main{padding: 90px 0 75px 0;}
+
+
+
+*-- media starts here --*/
+@media only screen and (min-width: 1024px){
+
+
+
+
+}
