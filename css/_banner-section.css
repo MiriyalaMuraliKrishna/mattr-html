@@ -5,26 +5,29 @@
 .hero-banner-logo img{width: 100%; object-fit:cover;}
 .hero-banner-txt p{font-size: 1.688rem; letter-spacing: -0.45px; font-weight: 300; line-height: normal; margin-bottom: 32px;}
 .default-banner-section .hero-banner-main .hero-banner-image .banner-img img{clip-path: polygon(31.7% 0%, 100% 0, 100% 100%, 0% 100%);}
-/* .hero-banner-txt{position: relative;}
-.hero-banner-txt::after{content:""; display: block; position: absolute; background-color: var(--anchor); opacity: 0.4; z-index: 1;} */
 
 /*-- media starts here --*/
 @media only screen and (min-width: 1024px){
     .default-banner-section .hero-banner-main{overflow: hidden;}
-    .default-banner-section .hero-banner-main .hero-banner-image .banner-img img{min-height: 558px;}
+    .default-banner-section .hero-banner-main .hero-banner-image .banner-img img{min-height: 558px; clip-path: none;}
     .default-banner-section .hero-banner-main .hero-banner-txt{width: 582px; padding-left: 170px;}
-    .default-banner-section .hero-banner-main .hero-banner-image{width: calc(100% - 582px);}
-    .default-banner-section .hero-banner-main .hero-banner-image .banner-img{position: relative; max-width: 100%;} 
-    /* .hero-banner-txt::after{ content: ""; display: block; position: absolute; background-color: var(--anchor); opacity: 0.4; z-index: 1; width: 50px; height: calc(100% + 40%); bottom: -71px; right: -198px; transform: rotate(32.5deg); }   */
-}
-
-@media only screen and (max-width: 1699px) and (min-width: 1300px){
- 
+    .default-banner-section .hero-banner-main .hero-banner-image{width: calc(100% - 582px); }
+    .default-banner-section .hero-banner-main .hero-banner-image .banner-img{min-width: 1118px; position: relative; max-width: 100%;clip-path: polygon(31.7% 0%, 100% 0, 100% 100%, 0% 100%);} 
+    .default-banner-section .hero-banner-main .hero-banner-image .banner-img::before {
+        background-color: var(--anchor);
+        content: "";
+        display: block;
+        width: 36%;
+        height: 100%;
+        position: absolute;
+        z-index: 1;
+        opacity: 0.4;
+        clip-path: polygon(50% 0, 100% 0, 12% 100%, 0% 100%);
+    }
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
     .default-banner-section .hero-banner-main .hero-banner-txt { width: 405px; padding: 70px 0 74px 80px; }
     .default-banner-section .hero-banner-main .hero-banner-image{width: calc(100% - 405px);} 
-    /* .banner-img::before {width: 50px; height: 135%; bottom: -61px; left: 112px; transform: rotate(19deg);} */
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .default-banner-section .hero-banner-main{display: block; padding-bottom: 8px;}
@@ -32,7 +35,6 @@
     .hero-banner-txt span{margin-bottom: 55px;}
     .flexpipe-logo{margin-bottom: 24px;}
     .hero-banner-txt p{margin-bottom: 30px;}
-    /* .banner-img::before {width: 30px; height: 140%; bottom: -97px; left: 104px; transform: rotate(32deg);} */
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .container{padding: 0 20px;}
@@ -42,7 +44,6 @@
     .flexpipe-logo{margin-bottom: 24px;}
     .hero-banner-txt p{margin-bottom: 30px;}
     .default-banner-section .hero-banner-main .hero-banner-image .banner-img{max-width: 359px; right: -35px;} 
-    /* .banner-img::before { width: 30px; height: 140%; bottom: -40px; left: 61px; transform: rotate(27deg); } */
 }
 
 
