@@ -8,7 +8,6 @@
 /* .hero-banner-txt{position: relative;}
 .hero-banner-txt::after{content:""; display: block; position: absolute; background-color: var(--anchor); opacity: 0.4; z-index: 1;} */
 
-
 /*-- media starts here --*/
 @media only screen and (min-width: 1024px){
     .default-banner-section .hero-banner-main{overflow: hidden;}
