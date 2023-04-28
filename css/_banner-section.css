@@ -1,51 +1,51 @@
-/* Banner section */
-.banner-section .hero-banner-main {align-items: center; justify-content: space-between; min-height: 558px;}
-.banner-section .hero-banner-main .hero-banner-txt {color: var(--heading); padding: 95px 0 70px 0px; width: 420px;}
-.banner-section .hero-banner-main .hero-banner-txt .optional-text {color: var(--light-blue); margin-bottom: 137px;}
-.banner-section .hero-banner-main .hero-banner-txt .hero-banner-logo{margin-bottom: 32px; max-width: 265px;}
-.banner-section .hero-banner-main .hero-banner-txt .hero-banner-logo img{width: 100%; object-fit:cover;}
-.banner-section .hero-banner-main .hero-banner-txt p {font-size: 1.688rem; letter-spacing: -0.45px; line-height: normal; margin-bottom: 32px;}
-.banner-section .hero-banner-main .hero-banner-image{width: calc(100% - 420px);}
-.banner-section .hero-banner-main .hero-banner-image .banner-img {overflow: hidden; max-width: 1118px; clip-path: polygon(31.7% 0%, 100% 0, 100% 100%, 0% 100%); position: absolute; top: 0; display: flex; align-items: stretch; height: 100%; right: 0;}
-.banner-section .hero-banner-main .hero-banner-image .banner-img:before{content:""; display: block; position: absolute; background-color: var(--anchor); opacity: 0.4; z-index: 1; width: 50px; height:calc(100% + 40%); bottom: -71px; left: 198px; transform: rotate(32.5deg);}
-.banner-section .container-lg {padding: 0; position: relative;}
-
-
-/*-- media starts here --*/
-
-@media only screen and (max-width: 1699px) and (min-width: 1300px){
-    .banner-section .hero-banner-main .hero-banner-image .banner-img{max-width: 845px;} 
-	.banner-section .hero-banner-main .hero-banner-image .banner-img:before{left: 154px; transform: rotate(25.3deg);}
-    }
-
-@media only screen and (max-width: 1299px) and (min-width: 1024px){
-    .banner-section .hero-banner-main .hero-banner-image .banner-img{max-width: 620px;} 
-	.banner-section .hero-banner-main .hero-banner-image .banner-img:before{left: 112px; transform: rotate(19deg);}
-
-}
-
-@media only screen and (max-width: 1023px) and (min-width:200px){
-	.banner-section .hero-banner-main {padding-bottom: 4px; display: block;}
-	.banner-section .hero-banner-main .hero-banner-txt{padding:68px 0 50px 0; max-width: 420px; width: 100%;}
-    .banner-section .hero-banner-main .hero-banner-txt .optional-text{margin-bottom: 49px;}  
-	.banner-section .hero-banner-main .hero-banner-txt .hero-banner-logo {margin-bottom: 24px;}
-    .banner-section .hero-banner-main .hero-banner-txt p{margin-bottom: 25px; font-size: 1.375rem; letter-spacing: -0.37px;}
-	
-	.banner-section .hero-banner-main .hero-banner-image {width: calc(100% + 20px);}
-	.banner-section .hero-banner-main .hero-banner-image .banner-img {position: relative; right: 0;}
-}
-
-@media only screen and (max-width: 1023px) and (min-width: 768px){	
-	.banner-section .hero-banner-main .hero-banner-image .banner-img {max-width: 580px; margin-left: auto;}
-    .banner-section .hero-banner-main .hero-banner-image .banner-img:before {left: 87px; transform: rotate(32.5deg); width: 30px;}
-}
-
-@media only screen and (max-width: 767px) and (min-width: 200px){
-    .banner-section .hero-banner-main .hero-banner-image .banner-img{max-width: 359px; right:0; clip-path: polygon(31% 0%, 100% 0, 100% 100%, 0% 100%); margin-left: auto;} 
-    .banner-section .hero-banner-main .hero-banner-image .banner-img:before {left: 57px; transform: rotate(29.9deg); bottom: -31px;
-width: 30px;}
-}
-
-
-
-
+/* Banner section */
+.default-banner-section .hero-banner-main .hero-banner-txt{color: var(--heading); padding: 95px 0 80px 0px;}
+.hero-banner-txt span{color: var(--light-blue); margin-bottom: 137px; display: block;}
+.hero-banner-logo{margin-bottom: 32px; max-width: 265px;}
+.hero-banner-logo img{width: 100%; object-fit:cover;}
+.hero-banner-txt p{font-size: 1.688rem; letter-spacing: -0.45px; font-weight: 300; line-height: normal; margin-bottom: 32px;}
+.default-banner-section .hero-banner-main .hero-banner-image .banner-img img{clip-path: polygon(31.7% 0%, 100% 0, 100% 100%, 0% 100%);}
+/* .hero-banner-txt{position: relative;}
+.hero-banner-txt::after{content:""; display: block; position: absolute; background-color: var(--anchor); opacity: 0.4; z-index: 1;} */
+
+
+/*-- media starts here --*/
+@media only screen and (min-width: 1024px){
+    .default-banner-section .hero-banner-main{overflow: hidden;}
+    .default-banner-section .hero-banner-main .hero-banner-image .banner-img img{min-height: 558px;}
+    .default-banner-section .hero-banner-main .hero-banner-txt{width: 582px; padding-left: 170px;}
+    .default-banner-section .hero-banner-main .hero-banner-image{width: calc(100% - 582px);}
+    .default-banner-section .hero-banner-main .hero-banner-image .banner-img{position: relative; max-width: 100%;} 
+    /* .hero-banner-txt::after{ content: ""; display: block; position: absolute; background-color: var(--anchor); opacity: 0.4; z-index: 1; width: 50px; height: calc(100% + 40%); bottom: -71px; right: -198px; transform: rotate(32.5deg); }   */
+}
+
+@media only screen and (max-width: 1699px) and (min-width: 1300px){
+ 
+}
+@media only screen and (max-width: 1299px) and (min-width: 1024px){
+    .default-banner-section .hero-banner-main .hero-banner-txt { width: 405px; padding: 70px 0 74px 80px; }
+    .default-banner-section .hero-banner-main .hero-banner-image{width: calc(100% - 405px);} 
+    /* .banner-img::before {width: 50px; height: 135%; bottom: -61px; left: 112px; transform: rotate(19deg);} */
+}
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+    .default-banner-section .hero-banner-main{display: block; padding-bottom: 8px;}
+    .default-banner-section .hero-banner-main .hero-banner-txt{padding: 75px 0 50px 0;}
+    .hero-banner-txt span{margin-bottom: 55px;}
+    .flexpipe-logo{margin-bottom: 24px;}
+    .hero-banner-txt p{margin-bottom: 30px;}
+    /* .banner-img::before {width: 30px; height: 140%; bottom: -97px; left: 104px; transform: rotate(32deg);} */
+}
+@media only screen and (max-width: 767px) and (min-width: 200px){
+    .container{padding: 0 20px;}
+    .default-banner-section .hero-banner-main{display: block; padding-bottom: 8px;}
+    .default-banner-section .hero-banner-main .hero-banner-txt{padding: 75px 0 50px 0;}
+    .hero-banner-txt span{margin-bottom: 55px;}
+    .flexpipe-logo{margin-bottom: 24px;}
+    .hero-banner-txt p{margin-bottom: 30px;}
+    .default-banner-section .hero-banner-main .hero-banner-image .banner-img{max-width: 359px; right: -35px;} 
+    /* .banner-img::before { width: 30px; height: 140%; bottom: -40px; left: 61px; transform: rotate(27deg); } */
+}
+
+
+
+
