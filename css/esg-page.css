@@ -2,7 +2,8 @@
 @import url("_repeater-section.css");
 @import url("_customizable-cta-section.css");
 
-
+.optional-text{color: #8fd5df;}
+.repeater-main{padding-bottom: 95px;}
 /* Intro section */
 .intro-main{padding: 128px 0 80px 0;}
 .intro-text h2{color: var(--heading); font-weight: normal;margin-bottom: 40px;}
@@ -11,12 +12,12 @@
 .esg-hr{margin-bottom: 90px;}
 
 /* Esg policy section */
-.esg-policy-section{background-color: var(--light-blueb);}
+.esg-policy-section{background-color: var(--light-bluebg);}
 .esg-policy-main{padding: 90px 0 0;}
-.esg-policy-title h2{font-size: 1.37rem; letter-spacing: -0.37px; color: var(--heading); margin-bottom: 50px;}
+.esg-policy-title h2{font-size: 1.375rem; letter-spacing: -0.37px; color: var(--heading); margin-bottom: 50px; font-weight: bold;}
 .esg-policy-list{margin-bottom: 52px;}
-.esg-policy-icon{background-color: var(--white); color: var(--heading); width: 48px; height: 47px; transition: all 0.3s ease-in-out;}
-.esg-policy-icon:hover{background-color: var(--heading); color: var(--white);}
+.esg-policy-icon{background-color: var(--white); box-shadow: 0 2px 90px 0 rgba(0, 58, 112, 0.2); color: var(--heading); width: 48px; height: 47px; transition: all 0.3s ease-in-out;}
+.esg-policy-icon:hover{background-color: var(--anchor); color: var(--white);}
 .esg-policy-icon span, .esg-policy-icon img{ max-width: 20px; width: 100%; font-size: 24px; line-height: normal; }
 .heading-three{font-size: 1.125rem; letter-spacing: -0.3px; color: var(--heading); font-weight: 600; margin-bottom: 22px;}
 .esg-policy-text{font-size: 0.875rem;line-height: 1.5rem; letter-spacing: -0.41px; }
@@ -34,9 +35,16 @@
    .intro-main{gap: 85px;}
    .intro-text{flex: 0 0 538px;}
    .intro-desc{flex: 0 0 calc(100% - 623px);}
+   .esg-policy-main{padding: 90px 0 40px 0;}
    .esg-policy-row{gap:0 50px;}
-   .esg-policy-list{gap: 20px; flex: 0 0 calc(25% - 38px);}
-   .esg-policy-text{flex: 0 0 calc(100% - 68px);}
+   .esg-policy-list{gap: 20px; flex: 0 0 calc(25% - 38px); margin-bottom: 47px;}
+   .esg-policy-text{flex: 0 0 calc(100% - 68px); padding-top: 15px;}
+   .esg-policy-text p{margin-bottom: 11px;}
+   .heading-three{margin-bottom: 10px;}
+}
+@media only screen and (max-width: 1699px) and (min-width: 1300px){
+   
+
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
    .container-md{padding: 0 20px;}
@@ -53,6 +61,7 @@
    .intro-main{padding: 75px 0 45px; display: block;}
    .intro-text h2{margin-bottom: 25px;}
    .intro-text{margin-bottom: 50px;}
+   .intro-desc{padding-top: 0;}
    .esg-policy-main{padding: 75px 0;}
    .esg-policy-row{gap: 50px;}
    .esg-policy-list{gap: 20px; flex: 0 0 calc(50% - 28px); margin-bottom: 0;}
@@ -63,6 +72,7 @@
    .intro-main{padding: 75px 0 45px; display: block;}
    .intro-text h2{margin-bottom: 25px;}
    .intro-text{margin-bottom: 50px;}
+   .intro-desc{padding-top: 0;}
    .esg-hr{margin-bottom: 0;}
    .esg-policy-main{padding: 75px 0;}
    .esg-policy-row{display: block;}

@@ -5,7 +5,7 @@
 .common-intro-image{overflow: hidden;}
 .common-intro-thumb{position: relative; clip-path: polygon(0 0, 100% 0, 54% 100%, 0% 100%);}
 .common-intro-thumb::after { top: 0; right: 0; opacity: 0.4; width: 54.5%; height: 100%; clip-path: polygon(85% 0%, 100% 0, 25% 100%, 0% 100%); background-color: var(--anchor); content: ""; display: block; position: absolute; z-index: 1; }
-
+.container-lg{padding: 0;}
 /*-- media starts here --*/
 @media only screen and (min-width: 1024px){
   .common-intro-main{gap: 32px; align-items: flex-start;}

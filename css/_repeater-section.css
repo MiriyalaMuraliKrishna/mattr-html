@@ -32,7 +32,7 @@
   .repeater-content span{margin-bottom: 20px;}
   .repeater-content h2{font-size: 2rem; margin-bottom: 24px;}
   .repeater-content p{margin-bottom: 26px;}
-  .repeater-thumb img{ max-height: 300px; overflow: hidden;}
+  .repeater-thumb img{ max-height: 400px; overflow: hidden;}
   .repeater-list:nth-child(odd) .repeater-content{padding-left: 0;}
   .repeater-list:nth-child(even) .repeater-content{padding-right: 0;}
   .repeater-list:last-child{margin-bottom: 0;}

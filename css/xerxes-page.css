@@ -1,0 +1,27 @@
+@import url("./_banner-section.css");
+@import url("./_common-intro-section.css");
+@import url("_features-module.css");
+@import url("./_product-common-module.css");
+@import url("./_success-story-module.css");
+@import url("./_cta-panel-section.css");
+
+.common-intro-section{margin-top: -2px;}
+.success-story-main::before{background-image: none;}
+.success-story-main .success-slider-for .success-sm-slide.slick-current .success-bgimg {opacity: 1;}
+.success-story-main .success-slider-for .success-bgimg::after{content: ""; display: block; width: 100%; height: 100%; top: 0; left: 0; position: absolute; background-color: var(--heading); background-blend-mode: multiply; opacity: 0.75;}
+.success-sm-slide.slick-current h4{color: var(--white);} 
+.success-sm-slide.slick-current .success-sm-txt {color: var(--white);}
+.success-story-main .success-slider-for .success-cnt {opacity: 1}
+.success-story-main .success-slider-for .success-sm-slide::before{opacity: 0.5;}
+
+/* Features module */
+.features-module{background: none;}
+
+
+
+
+
+@media only screen and (max-width: 767px) and (min-width: 200px){
+.success-story-main{padding: 176px 0 70px 0;}
+
+}

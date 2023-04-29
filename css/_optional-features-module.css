@@ -46,7 +46,7 @@
 
 
 @media only screen and (max-width:1023px) and (min-width:768px) {
-  .optional-features-module .optional-features-list {
+  .optional-features-module .optional-features-list, .optional-features-module .optional-features-list:nth-child(3n+1) {
     width: 46%;
     margin: 0 0 6% 8%
   }
@@ -56,21 +56,17 @@
 }
 @media only screen and (max-width: 767px) and (min-width:200px) {
   .optional-features-module {
-    padding: 70px 0 26px
+    padding: 60px 0 40px
   }
-  .optional-features-module h4 {
-    margin-bottom: 44px
-  }
+	.optional-features-module h2 {margin-bottom: 14px}
   .optional-features-module .optional-features-list {
     display: flex;
     width: 100%;
-    margin: 0 0 39px;
-    flex-wrap: wrap
+    margin: 0 0 20px;
+    flex-wrap: wrap;
+	  padding: 35px 35px 28px;
   }
-  .optional-features-module .optional-features-list .optional-feature-icon {
-    margin: 0 21px 0 0;
-    width: 53px
-  }
+  
   .optional-features-module .optional-features-list .feature-txt {
     width: calc(100% - 75px);
     padding: 8px 0 0

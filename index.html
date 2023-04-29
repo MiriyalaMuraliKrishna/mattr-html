@@ -16,48 +16,52 @@
 <link rel="stylesheet" type="text/css" href="style.css" media="all"/>
 <link rel="stylesheet" href="css/home-page.css" media="all"/>
 </head>
-<body>
+<body class="blue_header">
 
     <div id="main">
         <header id="main_header" class="main_header">
-    
+
             <div class="container-lg">
         
               <div class="header flex">
         
                 <div class="logo"> <span class="logo-pos normal-logo"> <a href="index.html"><img src="images/logo.svg" alt="Mattr Infrastructure Technologies Logo"></a> </span> <span class="logo-pos fixed-logo"> <a href="index.html"><img src="images/logo-sticky.svg" alt="Mattr Infrastructure Technologies Logo"></a> </span> </div>
         
-                
-        
-                <div class="toggle_button flex flex-center"> <a href="javascript:void();"> <span class="line line1"></span> <span class="line line2"></span> <span class="line line3"></span> </a> </div>
+                <div class="menu-icon flex flex-center"> <a class="menu_icon" href="javascript:void();"> <span class="line line1"></span> <span class="line line2"></span> <span class="line line3"></span> </a> </div>
         
                 <div class="header_right mobile_menu flex">
         
-                  <div class="header-top"> 
+                  <div class="header-map hide-in-desktop"><img src="images/menu-bg.svg" alt="Menu Map"/></div>
+        
+                  <div class="header-top">
         
                     <div class="top-nav">
         
-                        <ul>
+                      <ul>
         
                         <li><a href="#"><span class="fa-solid fa-comment-dots"></span>Contacts By brand</a></li>
         
-                            <li><a href="#"><span class="fa-solid fa-location-dot"></span>Global Locations</a></li>
+                        <li><a href="#"><span class="fa-solid fa-location-dot"></span>Global Locations</a></li>
         
-                        </ul>
+                      </ul>
         
-                    </div><!-- end of top nav -->
+                    </div>
         
-                      <div class="lang-nav">
+                    <!-- end of top nav -->
         
-                          <ul>
+                    <div class="lang-nav">
+        
+                      <ul>
         
                         <li><a href="#" class="current_language">EN</a></li>
         
-                            <li><a href="#">FR</a></li>
+                        <li><a href="#">FR</a></li>
         
-                        </ul>
+                      </ul>
         
-                    </div><!-- end of lang nav -->
+                    </div>
+        
+                    <!-- end of lang nav --> 
         
                   </div>
         
@@ -71,41 +75,61 @@
         
                           <ul class="sub-menu">
         
-                            <li><a href="#">Motor Vehicle Accidents</a></li>
+                            <li><a href="#">Markets</a></li>
         
-                            <li><a href="#">Motorcycle Accidents</a></li>
+                            <li><a href="#">Careers</a></li>
         
-                            <li><a href="#">Bicycle Accidents</a></li>
+                            <li><a href="#">Investors</a></li>
         
-                            <li><a href="#">Pedestrain Accidents</a></li>
-        
-                            <li><a href="#">Long Term Disability</a></li>
-        
-                            <li><a href="#">Canada Pensio Plan Disability</a></li>
-        
-                            <li><a href="#">Slip and Fall Accidents</a></li>
-        
-                            <li><a href="#">Product Liability</a></li>
-        
-                            <li><a href="#">Personal Injury</a></li>
-        
-                            <li><a href="#">Civil Claims for Sexual Assault</a></li>
-        
-                            <li><a href="#">Fatal Accidents/Wrongful Death</a></li>
-        
-                            <li><a href="#">Class Action/Mass Torts</a></li>
+                            <li><a href="#">Contact</a></li>
         
                           </ul>
         
                         </li>
         
-                        <li class="menu-item-has-children" id="menu-item-46"><a href="#">Brand &amp; Technologies</a> </li>
+                        <li class="menu-item-has-children flex-menu" id="menu-item-46"><a href="#">Brand &amp; Technologies</a>
+        
+                          <ul class="sub-menu">
+        
+                            <li>
+        
+                              <div class="nav-logo"><a href="#"><img src="images/xerxes-logo.svg" alt="XERXES"/></a></div>
+        
+                              <span>Hydrochain Stormwater Solutions</span> <a href="#" class="txt-btn"> <span class="icon arrow"></span> <span class="button-text">Learn More</span></a> </li>
+        
+                            <li>
+        
+                              <div class="nav-logo"><a href="#"><img src="images/shawflex-logo.svg" alt="SHAWWFLEX"/></a></div>
+        
+                              <span>Engineered custom-specified wire
+        
+                              and cable products.</span> <a href="#" class="txt-btn"> <span class="icon arrow"></span> <span class="button-text">Learn More</span></a></li>
+        
+                            <li>
+        
+                              <div class="nav-logo"><a href="#"><img src="images/DSG-canusa-logo.svg" alt="DSG-CANUSA"/></a></div>
+        
+                              <span>Integrated heat-shrink
+        
+                              and cold-shrink tubing.</span> <a href="#" class="txt-btn"> <span class="icon arrow"></span> <span class="button-text">Learn More</span></a></li>
+        
+                            <li>
+        
+                              <div class="nav-logo"><a href="#"><img src="images/flexpipe-logo.svg" alt="FLEXPIPE"/></a></div>
+        
+                              <span>Engineered custom-specified wire
+        
+                              and cable products.</span> <a href="#" class="txt-btn"> <span class="icon arrow"></span> <span class="button-text">Learn More</span></a></li>
+        
+                          </ul>
+        
+                        </li>
         
                         <li><a href="#">Markets</a></li>
         
                         <li><a href="#">Careers</a></li>
         
-                        <li><a href="#">Investors</a></li>				  
+                        <li><a href="#">Investors</a></li>
         
                         <li><a href="#">Contact</a></li>
         
@@ -122,49 +146,81 @@
             </div>
         
           </header>
-          
-           <!-- end of main header -->
-<main id="mainContent">
-<section class="home-banner-section">
-    <div class="background-bg">
-        <picture class="home-banner-thumb object-fit">
-            <source srcset="images/home-banner-bg@2x.jpg" media="(min-width: 768px)"/>
-            <img src="images/home-banner-bg-mobile@2x.jpg" alt="home-banner-bg"/>  
-        </picture>
-    </div>
-    <div class="container">
-        <div class="home-banner-main flex">
-            <div class="home-banner-text">
-                <span class="optional-text">Short Introduction Text</span>
-                <h1>With <strong>smart engineering,</strong> we help build the future.</h1>
-                <a href="#" class="button">Optional Button</a>
+    <!-- end of main header -->
+
+  <main id="mainContent">
+
+    <section class="default-banner-section pos-relative">
+
+        <div class="container-lg">
+    
+    
+    
+        <div class="hero-banner-main flex">
+    
+            <div class="hero-banner-txt"> 
+                
+                <span class="optional-text">Brand & Technologies</span>
+    
+                <figure class="hero-banner-logo">
+                    
+                    <img src="images/flexpipe-logo.svg" alt="flexpipe">
+    
+                </figure>
+    
+                <p>Engineered custom-specified wire and cable products.</p>
+    
+                <a href="#" class="button">View Website</a>
+    
             </div>
-            <div class="home-banner-image">
-                <picture class="home-banner-thumb object-fit">
-                    <source srcset="images/home-banner-thumb@2x.png" media="(min-width: 768px)"/>
-                    <img src="images/home-banner-thumb-mobile@2x.png" alt="home-banner-thumb-mobile"/>
-                </picture>
+            
+    
+            <div class="hero-banner-image">
+    
+                <div class="banner-img">
+    
+                  <picture class="hero-banner-thumb object-fit">
+    
+                    <source srcset="images/flexpipe-banner@2x.jpg" media="(min-width: 1024px)">
+    
+                    <source srcset="images/flexpipe-banner@2x.jpg" media="(min-width: 768px)">
+    
+                    <img src="images/flexpipe-banner-mobile@2x.jpg" alt="Career Default Banner"> </picture>
+    
+                </div>
+    
+              </div>
+    
+            </div>
+    
+          </div>
+    
+        
+    
+        </section>
+    
+        <!-- end of default banner section -->
+    
+    <section class="common-intro-section pos-relative">
+        <div class="container-lg">
+    
+            <div class="common-intro-main flex">
+                <div class="common-intro-image">
+                    <picture class="common-intro-thumb object-fit">
+                        <source srcset="images/flexpipe-intro-thumb@2x.jpg" media="(min-width: 768px)"/>
+                        <img src="images/flexpipe-intro-thumb-mobile@2x.jpg" alt="flexpipe-intro-thumb-mobile"/>
+                    </picture>
+                </div>
+                <div class="common-intro-text">
+                    <span class="optional-text">Intruduce Brand Preheading</span>
+                    <h2>We value healthier, more <br><strong>equitable world for our families</strong>, our <br>communities and our stakeholders.</h2>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove.</p>
+                    <a href="#" class="button">Optional Button</a>
+                </div>      
             </div>
         </div>
-    </div>
-</section>
-<section class="home-intro-section">
-    <div class="container">
-        <div class="home-intro-main flex">
-            <div class="home-intro-image">
-                <picture class="home-introduce-image">
-                    <source srcset="images/home-introduce-thumb@2x.jpg" media="(min-width: 768px)"/>
-                    <img src="images/home-introduce-thumb-mobile@2x.jpg" alt="home-introduce-thumb-mobile"/>
-                </picture>
-            </div>
-            <div class="home-intro-text">
-                <span class="optional-text">Intruduce Our Brands</span>
-                <h2>We value healthier, more <strong>equitable world for our families</strong>, our communities and our stakeholders.</h2>
-                <a href="#" class="button">Optional Button</a>
-            </div>
         </div>
-    </div>
-</section>
+    </section>    
 <section class="build-future-section">
     <div class="container">
         <div class="build-future-main">

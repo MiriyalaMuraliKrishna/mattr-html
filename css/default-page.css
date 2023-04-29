@@ -1,0 +1,78 @@
+@import url("../css/_cta-panel-section.css");
+@import url(../css/_features-module.css);
+@import url(../css/_optional-features-module.css);
+@import url("../css/_micro-cta.css");
+@import url("../css/_repeater-section.css");
+@import url("../css/_accordion-module.css");
+@import url("../css/_hero-banner.css");
+@import url("../css/_success-story-module.css");
+
+.default-banner-section .hero-banner-main {flex-direction: row-reverse;}
+.default-banner-section .hero-banner-main .hero-banner-image .banner-img {left: 0; right: inherit;}
+.default-banner-section .hero-banner-main .hero-banner-image .banner-img img {clip-path: polygon(0 0, 100% 0, 40.3% 100%, 0% 100%);}
+
+
+.features-module {margin-top: 90px;}
+.repeater-section {padding: 90px 0;}
+.repeater-main {padding: 0;}
+
+
+
+.default-slider-main {margin-bottom: 90px; clear: both; width: 100%; padding: 90px 0 91px; background: var(--light-bluebg); z-index: 1;}
+.default-slider-main .banner-bg {opacity: .7; margin: 0 auto; top:10px; right: inherit; bottom: inherit; left: 415px;}
+.default-slider-main .banner-bg figure {width: 1030px;}
+.default-slider-main .banner-bg img {object-fit: contain;}
+.default-slider-main .default-slider {justify-content: space-between; align-items: center; position: relative;}
+.default-slider-main .default-slider .default-slider-nav { width:calc(100% - 43.7%); margin: 0 20px 0 0;}
+.default-slider-main .default-slider .default-slider-nav .default-txt {padding:0 0 0 64px;}
+.default-slider-main .default-slider .default-slider-nav .default-txt p {font-size: 1.625rem; line-height: 1.73; letter-spacing: -0.98px; color: var(--anchor); font-weight: normal; position: relative; margin: 0 0 24px 0;}
+.default-slider-main .default-slider .default-slider-nav .default-txt p:before {content: ""; width: 4px; background: var(--anchor); display: block;  height: calc(100% - 19px); position: absolute; left: -64px; top: 9px;}
+
+
+.default-slider-main .default-slider .default-slider-for {width:30.9%;}
+.default-slider-main .default-slider .default-slider-for .default-thumb {height: 495px;}
+.default-slider-main .default-slider ul.slick-dots {padding: 0; max-width: 300px; position: absolute; bottom: 25px; right: -19px;}
+.default-slider-main .default-slider ul.slick-dots li {margin: 0 12.5px}
+.default-slider-main .default-slider .author-details {max-width: 400px;}
+.default-slider-main .default-slider .author-name {font-size: 1.125rem; font-weight: 600; letter-spacing: -0.3px; color: var(--heading); text-transform: capitalize;}
+.default-slider-main .default-slider .author-position {text-transform: uppercase; color: var(--sub-blue); font-size: 0.75rem; font-weight: 600; letter-spacing: 0.75px;}
+
+
+/*-- media css starts here --*/
+@media only screen and (max-width: 1299px) and (min-width: 1024px) {
+	.default-slider-main .default-slider .default-slider-for .default-thumb {height: auto;}
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 200px) {
+	.optional-features-module {padding: 60px 0 129px;}
+  .general-default-article-section h2 {padding-right: 10px;}
+  .default-slider-main .default-slider .default-slider-for { margin: 0 0 40px 0; width: 100%; padding: 0 0 0 66px;}
+
+  .default-slider-main .default-slider {flex-direction: column-reverse;}
+  .default-slider-main .default-slider .default-slider-nav {padding: 0; width: 100%; margin: 0;}
+  .default-slider-main .default-slider ul.slick-dots {right:0;}
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+	.default-slider-main {padding: 80px 0 81px;}
+	.default-slider-main .default-slider .default-slider-for .default-thumb {height: 400px;}
+	.default-slider-main .default-slider .default-slider-for .default-thumb img {width: 400px;}
+}
+@media only screen and (max-width: 767px) and (min-width: 200px) {
+	
+	
+	
+	.default-slider-main .banner-bg {top: -38px; left: -309px;}
+	.default-slider-main {padding: 51px 0 73px; margin-bottom: 67px;}
+	.default-slider-main .default-slider .default-slider-nav .default-txt {padding: 0 0 0 44px;}
+	.default-slider-main .default-slider .default-slider-nav .default-txt p::before {left: -44px;}
+ 	.default-slider-main .default-slider .default-slider-nav .default-txt p {font-size: 1.25rem; font-weight: normal; line-height: 1.75; letter-spacing: -0.75px;}
+	.default-slider-main .default-slider .default-slider-for {padding: 0 0 0 44px;}
+	.default-slider-main .default-slider .default-slider-for .default-thumb {height: 221px; width: 211px !important;}
+	.default-slider-main .default-slider ul.slick-dots {right: -11px; bottom: -29px;}
+	
+	
+	
+	
+	.repeater-section {padding: 66px 0 70px;}
+}

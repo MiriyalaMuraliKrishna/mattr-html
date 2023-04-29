@@ -6,11 +6,13 @@
 @import url("./_cta-panel-section.css");
 
 
-
+.product-common-section{background-color: var(--white);}
+.product-common-wrap{padding-bottom: 38px;}
+.product-common-item{background-color: var(--light-bluebg);}
 
 /*-- media starts here --*/
 @media only screen and (min-width: 1024px){
-  .container-lg{padding: 0;}
+  
  
   
 
