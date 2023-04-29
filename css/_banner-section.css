@@ -15,6 +15,7 @@
     .default-banner-section .hero-banner-main .hero-banner-image{width: calc(100% - 582px); }
     .default-banner-section .hero-banner-main .hero-banner-image .banner-img{min-width: 1118px; position: relative; max-width: 100%;clip-path: polygon(31.7% 0%, 100% 0, 100% 100%, 0% 100%);} 
     .default-banner-section .hero-banner-main .hero-banner-image .banner-img::before { clip-path: polygon(50% 0, 100% 0, 12% 100%, 0% 100%);  width: 36%; }
+    .common-intro-text .button{margin-top: 17px;}
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
     .default-banner-section .hero-banner-main .hero-banner-txt { width: 405px; padding: 70px 0 74px 80px; }
